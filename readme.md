@@ -1,6 +1,5 @@
 # giabalanai
-![giabalanai](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai-logo.png)
-![giabalanai](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai.jpg)
+![giabalanai](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_keyboard-under_construction.jpg)
 
 # Firmware
 
