@@ -1,7 +1,5 @@
-<p align="center">
-  <src="https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_logo.png">
-  <src="https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg">
-</p>
+![giabalanai logo](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_logo.png)
+![giabalanai overview](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg)
 
 # Firmware
 
