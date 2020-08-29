@@ -1,8 +1,6 @@
-# giabalanai
-![giabalanai](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_keyboard-under_construction.jpg)
+![giabalanai logo](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_logo.png)
 
-(A picture showing the giabalanai keyboard which is under construction.)
-
+![giabalanai overview](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg)
 
 # Firmware
 
