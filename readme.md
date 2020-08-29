@@ -1,5 +1,4 @@
 ![giabalanai logo](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_logo.png)
-
 ![giabalanai overview](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg)
 
 # Firmware
