@@ -1,6 +1,9 @@
 # giabalanai
 ![giabalanai](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_keyboard-under_construction.jpg)
 
+(A picture showing the giabalanai keyboard which is under construction.)
+
+
 # Firmware
 
 The giabalanai uses QMK for its firmware, and the code for it is here:
