@@ -1,4 +1,6 @@
-![giabalanai logo](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_logo.png)
+<p align=center>
+<img width="700" alt="giabalanai_logo" src="https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_logo.png">
+</p>
 ![giabalanai overview](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg)
 
 giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys) which doesn't have bellows nor register switches.
