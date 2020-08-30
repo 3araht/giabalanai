@@ -73,7 +73,7 @@
 詳しい説明については、[こちら](https://docs.qmk.fm/#/how_a_matrix_works)などをご覧ください。
 
 ダイオードには向きがあります。また、図のように足を曲げておきます。
-ダイオードをつまんで両断の足を同時に曲げると図の右のように比較的ちょうどいい形になります。  
+ダイオードをつまんで両端の足を同時に曲げると図の右のように比較的ちょうどいい形になります。  
 <img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_bend.jpg">
 
 キースイッチと干渉しないように、ダイオードは基板の裏面に実装します。
@@ -86,7 +86,7 @@
 オモテ面から見た図  
 <img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_flatten2.jpg">
 
-オモテ面から半田づけします。  
+オモテ面から半田付けします。  
 <img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_soldered.jpg">
 
 足をニッパでカットします。  
@@ -166,14 +166,14 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 **一度半田付けしたコンスルーを外すのは困難を極めますので、十分注意してください。**
 
 ## 7 ボトムプレート、スペーサーの組み立て
-図の赤丸の位置 10 箇所に M2 のねじと スペーサーを取り付けます。  
+ボトムプレートの、図の赤丸の位置 10 箇所に M2 のねじで スペーサーを取り付けます。  
 <img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/BottomPlate.jpg">  
 <img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/SpacerOnBottomPlate.jpg">
 
 キースイッチの間にネジをセットするにはピンセットを使います。  
 <img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/ScrewSettingWIthTweezers.jpg">
 
-ネジ止めはたすき掛けであまり強く締めつけすぎないようにします。
+ネジ止めはたすき掛けで均一に締めつけますが、強く締めつけすぎないようにします。
 
 （左手側は、左上と右下の二箇所がキースイッチと干渉してしまって上からねじ止めができませんでした。。。すみません。）  
 <img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/leftUpperLeftCorner.jpg">
@@ -189,7 +189,7 @@ https://docs.qmk.fm/#/getting_started_build_tools
 giabalanai の Firmware は以下にあります。  
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai
 
-コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/3araht_giabalanai_default.hex)からダウンロードできます。
+コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex)からダウンロードできます。
 
 初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。  
 https://github.com/qmk/qmk_toolbox
@@ -197,7 +197,7 @@ https://github.com/qmk/qmk_toolbox
 このキーボードでタイピングすることはあまり考えていないと思いますが、必要に応じてカスタマイズしてお使いください。
 
 ### default について
-**上記コンパイル済のHEXファイルは下記に示すdefault 設定に加えてLEDも押したキーのLED が発光するようになっています。**
+**上記コンパイル済のHEXファイルは下記に示すdefault 設定に加えてLEDが実装されていれば押したキーのLED が発光するようになっています。**
 
 USBケーブルを接続したら、アコーディオンの配列になります。
 
@@ -220,3 +220,4 @@ USBケーブルを接続したら、アコーディオンの配列になりま�
 - TRRS ケーブルはしっかり奥まで刺さっている（少しきついので起こりがちです。注意してください。）
   また、TRRSケーブル内に 5V と GND 線が走っており、電源投入中に抜き差しするとショートする恐れがあるので、活線挿抜はお控えください。
 - MIDI機器に対応したソフトを起動している。
+- USBケーブルは右手側のキーボードに接続されている。
