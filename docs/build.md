@@ -133,7 +133,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 **この時点でPro Microを取り付けてはいけません。一度半田付けしてしまったPro Micro を取り外すのは至難の技です。充分ご注意ください。**
 
 
-## 5 キースイッチの取付け
+## 5 キースイッチ、エンコーダ（Option）の取付け
 **スイッチを取り付ける前に部品の取付けや半田付けができているか確認します。**
 （1 のダイオードは必ず済ませておいてください。）
 <img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_front.jpg">
@@ -150,7 +150,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 取り付けたときにPro Microの浮きがないか確認し、浮きがあればPro Micro下のスイッチの足を少しカットします。
 
 ※コンスルーを使う場合はPro Micro側のみを半田付けします。
-<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_through.jpg">
+<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_through.jpg">
 
 コンスルーを斜めに半田付けしないように、基板の**裏面から**コンスルーを差しておいてピンが垂直になるようにします。
 下図のように、Pro Micro 側(側面に空いている小さな穴が近い方)を上にして基板にコンスルーを差し込みます。
@@ -158,8 +158,8 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 <img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_through_onPCB.jpg">
 
 *Pro Micro の上下の向きに注意。Pro Micro の TxD ピンが基板の TxD に刺さるように向きが合っているか確認します。
-<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_throughSoldered2ProMicro.jpg">
-<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/ProMicro_TxD_r01.jpg">
+<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_throughSoldered2ProMicro.jpg">
+<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/ProMicro_TxD_r01.jpg">
 
 コンスルーを基板の裏面から差し、TxD の位置を見て向きが揃っていることを確認したら、コンスルーとPro Micro を半田付けします。
 **一度半田付けしたコンスルーを外すのは困難を極めますので、十分注意してください。**
@@ -212,9 +212,9 @@ USBケーブルを接続したら、アコーディオンの配列になりま�
 ## 9 チェックポイント
 簡単なチェック項目を挙げます。参考になれば幸いです。
 
-- Pro Micro は基板にしっかり刺さっている
+- Pro Micro は基板にしっかり刺さっている。
 - Pro Micro のピンと基板のピンは一致させた状態で接続できている（Pro Micro の上下の向き確認）。
 - Pro Micro にファームウェアを書き込んである（左右同じHEXファイルを書き込みます）。
 - TRRS ケーブルはしっかり奥まで刺さっている（少しきついので起こりがちです。注意してください。）
   また、TRRSケーブル内に 5V と GND 線が走っており、電源投入中に抜き差しするとショートする恐れがあるので、活線挿抜はお控えください。
-- MIDI機器に対応したソフトを起動している
+- MIDI機器に対応したソフトを起動している。
