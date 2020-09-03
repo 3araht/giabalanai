@@ -8,7 +8,8 @@ giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keybo
 A rotary encoder can be used for adjusting system volume of the PC.
 
 # How it looks & how it works
-Check this short [video](https://github.com/3araht/giabalanai/blob/master/videos/IMG_4443.mov) to see what it's like.
+Check these short [video1](https://github.com/3araht/giabalanai/blob/master/videos/IMG_4443.mov), [video2](https://github.com/3araht/giabalanai/blob/master/videos/IMG_4443.mov) to see what it's like.
+Another [video](https://github.com/3araht/giabalanai/blob/master/videos/giabala_dangi_ep.16_theme_song_feat.Mr.Seto.mp4), trying to play (pardon my poor playing skills) a theme song of Giabala-Dangi (https://www.youtube.com/watch?v=WSVRJk6kDiM).
 
 # Keyboard kit
 The keyboard kit is available [here](https://yushakobo.jp/product-category/keyboard/)
