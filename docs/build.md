@@ -20,7 +20,7 @@
 
 | パーツ名 |  個数  |  備考  | 写真 |
 |--------|-------|-------|-------|  
-|[Pro Micro （コンスルー付き）](https://yushakobo.jp/shop/promicro-spring-pinheader/)|2個|ファームウェア なし をお選びください（別途書き込みます）。※ 基板の Pro Micro 用の実装穴はコンスルー用に小さめになっていますので、通常のピンヘッダーは刺さりません。ご注意ください。コンスルーを使わない場合はダイオードの足の切れ端を使って延長するなどの工夫が必要になります。||
+|[Pro Micro （コンスルー付き）](https://yushakobo.jp/shop/promicro-spring-pinheader/)|2個|ファームウェア なし をお選びください（別途書き込みます）。||
 |キースイッチ(CherryMX 互換品)|122個|左手側60個＋右手側62個。||
 |MX対応キーキャップ|122個|1U、左60個＋右62個。（5pinタイプ推奨） ||
 |[TRRSケーブル](https://yushakobo.jp/shop/trrs_cable/)|1本|AUXケーブルとも呼ばれている3.5mmオーディオ用の4極ケーブル(左手側のLEDも発光させる場合は4極ケーブルが必須)。||
@@ -127,7 +127,13 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 左右の基板共、白い四角い枠のシルクに沿って裏側に取り付けます。浮いたり曲がった状態で実装しないようにマスキングテープなどで予め仮止めしてから半田付けするとミスが少なくなります。  
 <img width="700" alt="S_T" src="https://github.com/3araht/giabalanai/blob/master/pictures/TRRS_ResetSW.jpg">
 
-## 4 キースイッチ、エンコーダ（Option）の取付け
+## 4 Pro Micro用ピンヘッダの取付け
+**※コンスルー（スプリングピンヘッダ）を使う場合はこの工程は不要です。**
+白い四角い枠のシルクに沿って裏側にピンヘッダを取り付けます。
+**この時点でPro Microを取り付けてはいけません。一度半田付けしてしまったPro Micro を取り外すのは至難の技です。充分ご注意ください。**
+
+
+## 5 キースイッチ、エンコーダ（Option）の取付け
 **スイッチを取り付ける前に部品の取付けや半田付けができているか確認します。**
 （1 のダイオードは必ず済ませておいてください。）  
 <img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_front.jpg">  
@@ -137,7 +143,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 <img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_test.jpg">
 
 
-## 5 Pro Microの取付け
+## 6 Pro Microの取付け
 **作業前にPro MicroをUSBでPCと繋げて動作を確認しておきましょう。**
 取り付ける前に半田忘れがないか確認します。
 左右の基板ともPro Microを表にして取り付けられるようになります。
@@ -158,7 +164,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 コンスルーを基板の裏面から差し、TxD の位置を見て向きが揃っていることを確認したら、コンスルーとPro Micro を半田付けします。
 **一度半田付けしたコンスルーを外すのは困難を極めますので、十分注意してください。**
 
-## 6 ボトムプレート、スペーサーの組み立て
+## 7 ボトムプレート、スペーサーの組み立て
 ボトムプレートの、図の赤丸の位置 10 箇所に M2 のねじで スペーサーを取り付けます。  
 <img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/BottomPlate.jpg">  
 <img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/SpacerOnBottomPlate.jpg">
@@ -174,7 +180,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 緑丸の位置にクッションシールを取り付けます。  
 <img width="700" alt="gom" src="https://github.com/3araht/giabalanai/blob/master/pictures/Cushon.jpg">
 
-## 7 Firmwareの書き込み
+## 8 Firmwareの書き込み
 左右の基板の Pro Micro に同じHEXファイルを書き込みます。
 以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。  
 https://docs.qmk.fm/#/getting_started_build_tools
@@ -204,7 +210,7 @@ USBケーブルを接続したら、アコーディオンの配列になりま�
 
 このキーボードでは、右手側がマスターとなっていますので、USBケーブルは必ず右手側に接続してください。
 
-## 8 チェックポイント
+## 9 チェックポイント
 簡単なチェック項目を挙げます。参考になれば幸いです。
 
 - Pro Micro は左右の基板共にしっかり基板に刺さっている。
