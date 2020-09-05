@@ -17,8 +17,10 @@ The keyboard kit is available [here](https://yushakobo.jp/shop/consign_giabalana
 
 # Firmware
 
-The giabalanai uses QMK for its firmware, and the codes for it are here:
+The giabalanai uses QMK for its firmware, and the codes for it will be available here as the push request is accepted:
 [QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai)
+
+Temporarily, please download codes from [here](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai) as a "beta" version.
 
 Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex) for your convenience (RGB_LIGHTING enabled).
 
