@@ -30,5 +30,4 @@ Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/m
 
 # Contact
 If you need any help, you know where to find me.  
-http://twitter.com/3araht  
-3araht@gmail.com
+http://twitter.com/3araht
