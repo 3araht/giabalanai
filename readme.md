@@ -27,3 +27,8 @@ Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/m
 # Build Guide
 
 [Japanese Build Guide](https://github.com/3araht/giabalanai/blob/master/docs/build.md)
+
+# Contact
+If you need any help, you know where to find me.  
+http://twitter.com/3araht  
+3araht@gmail.com
