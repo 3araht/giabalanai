@@ -1,4 +1,6 @@
-# giabalanai Build Guide
+# giabalanai Build Guide  〜 rev.01 用 〜
+*rev.02用のビルドガイドは[こちら](https://github.com/3araht/giabalanai/blob/master/docs/build.md)*
+
 **一度すべて読んでから組み立てることをお勧めします。**
 
 ## 0 パーツの確認、各部品の実装面の整理
@@ -12,8 +14,8 @@
 |M2 スペーサー |20個|左右各10個|
 |M2 ネジ|40個|左右各20個|
 |クッションシール|10個|左右各5個|
-|TRRSジャック|2個||
-|リセットスイッチ|2個||
+|TRRSジャック|2個|左右の基板を繋ぐTRRSケーブル用|
+|リセットスイッチ|2個|ファームウェアを書き込むときに使います。|
 |ダイオード 1N4148|99個|左手側は60個、右手側は38個＋エンコーダ用1個|
 
 右手側は62ボタンありますが、そのうち24ボタンは音が重複しているボタンなので、ダイオードは24個少なくてよく、右手側は38個あれば良い事になります。
@@ -28,7 +30,7 @@
 |キースイッチ(CherryMX 互換品)|122個|左手側60個＋右手側62個。|
 |MX対応キーキャップ|122個|1U、左60個＋右62個。（5pinタイプ推奨） |
 |[TRRSケーブル](https://yushakobo.jp/shop/trrs_cable/)|1本|AUXケーブルとも呼ばれている3.5mmオーディオ用の4極ケーブル(左手側のLEDも発光させる場合は4極ケーブルが必須)。|
-|[MicroUSBケーブル](https://yushakobo.jp/shop/usb_cable_micro_b/)|1本|Pro Micro側のコネクタの耐久性が低いためマグネット式を推奨。左右の基板のPro Microにファームウェア書き込むときにとても便利です。|
+|[MicroUSBケーブル](https://yushakobo.jp/shop/usb_cable_micro_b/)|1本|Pro Micro 側のコネクタの耐久性が低いためマグネット式を推奨。左右の基板の Pro Micro にファームウェア書き込むときにとても便利です。|
 
 ### [Optional]別途用意いただく必要のあるもの
 
@@ -114,7 +116,7 @@ LEDはデータを直列に伝送する都合上、最上行はオモテ面か�
 こてを斜めにして接触面積を広げるとやり易いという事がわかりました。  
 <img width="700" alt="RGB_LED" src="https://github.com/3araht/giabalanai/blob/master/pictures/LED_solder_iron.jpg">
 
-LEDは、右手側Pro Microの1番ピン（Tx）から右手側基板の左上のLEDから直列繋ぎにデータを伝達し、右手側基板上の63個のLEDを通過したデータはTRRSケーブルを通じて左手側基板上面からみて右上のLEDから直列繋ぎにデータを伝達します。
+LEDは、右手側 Pro Micro の1番ピン（Tx）から右手側基板の左上のLEDから直列繋ぎにデータを伝達し、右手側基板上の63個のLEDを通過したデータはTRRSケーブルを通じて左手側基板上面からみて右上のLEDから直列繋ぎにデータを伝達します。
 
 右手側基板および左手側基板の下図の位置を半田でジャンパします。
 
@@ -131,10 +133,10 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 左右の基板共、白い四角い枠のシルクに沿って裏側に取り付けます。浮いたり曲がった状態で実装しないようにマスキングテープなどで予め仮止めしてから半田付けするとミスが少なくなります。  
 <img width="700" alt="S_T" src="https://github.com/3araht/giabalanai/blob/master/pictures/TRRS_ResetSW.jpg">
 
-## 4 Pro Micro用ピンヘッダの取付け
+## 4 Pro Micro 用ピンヘッダの取付け
 **※コンスルー（スプリングピンヘッダ）を使う場合はこの工程は不要です。**
 白い四角い枠のシルクに沿って裏側にピンヘッダを取り付けます。
-**この時点でPro Microを取り付けてはいけません。一度半田付けしてしまったPro Micro を取り外すのは至難の技です。充分ご注意ください。**
+**この時点で Pro Micro を取り付けてはいけません。一度半田付けしてしまった Pro Micro を取り外すのは至難の技です。充分ご注意ください。**
 
 
 ## 5 キースイッチ、エンコーダ（Option）の取付け
@@ -151,13 +153,13 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 
 
 
-## 6 Pro Microの取付け
+## 6 Pro Micro の取付け
 **作業前にPro MicroをUSBでPCと繋げて動作を確認しておきましょう。**
 取り付ける前に半田忘れがないか確認します。
-左右の基板ともPro Microを表にして取り付けられるようになります。
-取り付けたときにPro Microの浮きがないか確認し、浮きがあればPro Micro下のスイッチの足を少しカットします。
+左右の基板とも Pro Micro を表にして取り付けられるようになります。
+取り付けたときに Pro Micro の浮きがないか確認し、浮きがあれば Pro Micro下のスイッチの足を少しカットします。
 
-※コンスルーを使う場合はPro Micro側のみを半田付けします。  
+※コンスルーを使う場合は Pro Micro 側のみを半田付けします。  
 <img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_through.jpg">
 
 コンスルーを斜めに半田付けしないように、基板の**裏面から**コンスルーを差しておいてピンが垂直になるようにします。
@@ -169,7 +171,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 <img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_throughSoldered2ProMicro.jpg">  
 <img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/ProMicro_TxD_r01.jpg">
 
-コンスルーを基板の裏面から差し、TxD の位置を見て向きが揃っていることを確認したら、コンスルーとPro Micro を半田付けします。
+コンスルーを基板の裏面から差し、TxD の位置を見て向きが揃っていることを確認したら、コンスルーと Pro Micro を半田付けします。
 **一度半田付けしたコンスルーを外すのは困難を極めますので、十分注意してください。**
 
 ## 7 ボトムプレート、スペーサーの組み立て
