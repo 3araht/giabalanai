@@ -50,16 +50,16 @@ rev.01 と rev.02 の一番の違いは Pro Micro の裏表の実装方法です
 
 基板の裏面には、ダイオードの実装場所やキーボード名が印字されています。
 
-左手側　オモテ面  
+左手側 オモテ面  
 <img width="700" alt="PCB" src="https://github.com/3araht/giabalanai/blob/master/pictures/left_front_pcb_r02.jpg">
 
-左手側　裏面  
+左手側 裏面  
 <img width="700" alt="PCB" src="https://github.com/3araht/giabalanai/blob/master/pictures/left_rear_pcb_r02.jpg">
 
-右手側　オモテ面  
+右手側 オモテ面  
 <img width="700" alt="PCB" src="https://github.com/3araht/giabalanai/blob/master/pictures/right_front_pcb_r02.jpg">
 
-右手側　裏面  
+右手側 裏面  
 <img width="700" alt="PCB" src="https://github.com/3araht/giabalanai/blob/master/pictures/right_rear_pcb_r02.jpg">
 
 
@@ -232,13 +232,14 @@ https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai
 https://github.com/qmk/qmk_firmware
 
 2. qmk_firmware/util/new_keyboard.sh を使って giabalanai キーボード を新規登録します。以下のコマンドでスクリプトを実行します。  
+このコマンドは qmk_firmware フォルダで実行します。  
 ```
 ./util/new_keyboard.sh
 ```
 下図の赤い文字にしたがって進めて行きます。こうすると、正式な手続きでgiabalanai キーボードのフォルダが qmk_firmware/keyboards に出来上がります。  
-<img width="700" alt="new_keyboard" src="https://github.com/3araht/giabalanai/blob/master/pictures/new_keyboard.png">  
+<img width="700" alt="new_keyboard" src="https://github.com/3araht/giabalanai/blob/master/pictures/new_keyboard.png">
 
-また、これにより、
+また、これにより、qmk_firmware フォルダで  
 ```
 make giabalanai:default
 ```
@@ -246,8 +247,7 @@ make giabalanai:default
 
 3. 暫定的に UP している[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードを qmk_firmware/keyboards/giabalanai に上書き保存します。
 
-
-
+4. カスタマイズ！  
 ~~かなり Staggered なので、このキーボードでタイピングすることはあまり考えていないと思いますが、必要に応じてカスタマイズしてお使いください。~~  
 意外と打てました。左手側のキーボードを5x12の60％キーボードとして使えそうです。  
 （また、register switch 機能を付与するなどのカスタマイズは面白いかもしれませんね。）
