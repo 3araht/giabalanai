@@ -27,7 +27,8 @@ Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/m
 # Known issue and workaround
 
 When multiple chords are played and when the chords share the same note(s), it activates a sustain effect that stays until you unplug the keyboard.
-When you are using GarageBand, the symptom can be fixed by clicking "Revert" button on the bottom left corner on the GarageBand window.
+When you are using GarageBand, the symptom can be fixed by clicking "Revert" button on the bottom left corner on the GarageBand window.  
+https://github.com/qmk/qmk_firmware/issues/10199
 
 The symptom is seen with Logic Pro, Piano 10 (Windows), as well.
 However, this won't occur with Ableton Live 10.
