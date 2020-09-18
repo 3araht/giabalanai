@@ -33,7 +33,7 @@ https://github.com/qmk/qmk_firmware/issues/10199
 The symptom is seen with Logic Pro, Piano 10 (Windows), as well.
 However, this won't occur with Ableton Live 10.
 Ableton Live 10 has a different symtpom that the duplicate notes turn off at the earliest release of the button.
-Here's an example from github, reported from jakobkg. Thank you, jakobkg!!!
+Here's an example from github, reported by jakobkg. Thank you, jakobkg!!!
 
 
 >I press MI_CH_C so the notes C, E and G play. I keep that held and press MI_CH_CDom7. MI_CH_CDom7 plays the notes C, E and Bb so the C and E are re-triggered and a Bb is played, while the G keeps ringing.
