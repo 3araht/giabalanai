@@ -69,6 +69,9 @@ index b2fb902eb..e52577014 100644
 
 The uploaded hex file has this patch applied.
 
+Now we do have the same issue found with Ableton Live 10 when GarageBand is used.
+However, it is much less troublesome to play and enjoy the chromatic button accordion-ish keyboard gabalanai.  
+Have fun!!!
 
 
 # Build Guide
