@@ -206,20 +206,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 ## 8 Firmwareの書き込み
 左右の基板の Pro Micro に同じHEXファイルを書き込みます。
 
-### コーティングに慣れている方、チャレンジされる方 ###
-
-以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。  
-https://docs.qmk.fm/#/getting_started_build_tools
-
-giabalanai の Firmware は以下にUPされるよう push request 中です。
-https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai
-
-それまで、暫定的に[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードをお使いください。
-
-かなり Staggered なので、このキーボードでタイピングすることはあまり考えていないと思いますが、必要に応じてカスタマイズしてお使いください。  
-（register switch 機能を付与するなどのカスタマイズは面白いかもしれませんね。）
-
-### コーティングはちょっと自信がない／とりあえず基本機能で動作させたい、という方 ###
+### 8.1 コーティングはちょっと自信がない／とりあえず基本機能で動作させたい、という方 ###
 
 コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex)からダウンロードできます。
 
@@ -230,7 +217,43 @@ QMK Toolbox の使い方（Win版） は サリチル酸さんの[記事](https:
 
 Macをご使用の方: インストール方法が違うだけで、基本的には同じです。
 
-### default について
+### 8.2 コーティングに慣れている方、チャレンジされる方 ###
+
+以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。  
+https://docs.qmk.fm/#/getting_started_build_tools
+
+giabalanai の Firmware は以下にUPされるよう push request 中です。
+https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai
+
+それまで、暫定的に[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードをお使いください。
+
+#### 8.2.1 暫定的にUPしたソースの使い方 ####
+1. まず、qmk_firmware を clone してきます。
+https://github.com/qmk/qmk_firmware
+
+2. qmk_firmware/util/new_keyboard.sh を使って giabalanai キーボード を新規登録します。以下のコマンドでスクリプトを実行します。  
+```
+./util/new_keyboard.sh
+```
+下図の赤い文字にしたがって進めて行きます。こうすると、正式な手続きでgiabalanai キーボードのフォルダが qmk_firmware/keyboards に出来上がります。  
+<img width="700" alt="new_keyboard" src="https://github.com/3araht/giabalanai/blob/master/pictures/new_keyboard.png">  
+
+また、これにより、
+```
+make giabalanai:default
+```
+などのコンパイルも通るようになります。
+
+3. 暫定的に UP している[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードを qmk_firmware/keyboards/giabalanai に上書き保存します。
+
+
+
+~~かなり Staggered なので、このキーボードでタイピングすることはあまり考えていないと思いますが、必要に応じてカスタマイズしてお使いください。~~  
+意外と打てました。左手側のキーボードを5x12の60％キーボードとして使えそうです。  
+（また、register switch 機能を付与するなどのカスタマイズは面白いかもしれませんね。）
+
+
+### 8.3 default について
 **上記コンパイル済のHEXファイルは下記に示すdefault 設定に加えてLEDが実装されていれば押したキーのLED が発光するようになっています。**
 
 USBケーブルを接続したら、アコーディオンの配列になります。
@@ -241,12 +264,13 @@ USBケーブルを接続したら、アコーディオンの配列になりま�
 エンコーダボタン（短押しだとミュート）を長押しながら左手側キーボード 2行1列目のD♭Majorのコードのキーを押すと
 左手側キーボード の5行12列がQWERTY配列のキーボード になるようになっています（マイナス記号など一部配置されていないので簡易的なものになります）。
 アコーディオンの配列に戻す場合は、エンコーダボタンを長押しながら左手側キーボード 1行1列目のD♭のキーを押します。
-なお、電源を再投入（USB抜き差し）したら アコーディオンの配列（C-System）に戻ります。
+なお、電源を再投入（USB抜き差し）したら
+~~アコーディオンの配列（C-System）に戻ります。~~ 最後に使っていたアコーディオン配列に戻ります。
 
 **ここからは上記コンパイル済のHEXファイルの場合**  
 右手側下3行だけはB-systemにすることもできます。エンコーダーボタン長押し＋左手側キーボード 1行2列目のA♭のキーを押します（誤白川さん、アイデアありがとうございます）。
 
-また、左手側のベース音を2列にしたレイアウトにも変更可能です。エンコーダーボタン長押し＋左手側キーボード 1行3列目のE♭のキーを押します（チャラン・ポ・ランタン 小春さん、ご要望いただきありがとうございます）。
+また、左手側のベース音を2列にした Counter Bass レイアウトにも変更可能です。エンコーダーボタン長押し＋左手側キーボード 1行3列目のE♭のキーを押します（チャラン・ポ・ランタン 小春さん、ご要望いただきありがとうございます）。
 
 
 |                               操作                    |       変更先レイヤー（配列）  |
@@ -254,8 +278,8 @@ USBケーブルを接続したら、アコーディオンの配列になりま�
 | エンコーダーボタン長押し＋左手側キーボード 1行1列目のD♭ | アコーディオン配列（C-System）＝初期状態|
 | エンコーダーボタン長押し＋左手側キーボード 2行1列目のD♭Major | QWERTY 配列（左手側キーボード）|
 | エンコーダーボタン長押し＋左手側キーボード 1行2列目のA♭ | アコーディオン配列（B-System、ただし下3行のみ)|
-| エンコーダーボタン長押し＋左手側キーボード 1行3列目のE♭ | アコーディオン配列（C-System, Bass 2行版）|
-| USB ケーブル抜き差し | アコーディオン配列（C-System）＝初期状態|
+| エンコーダーボタン長押し＋左手側キーボード 1行3列目のE♭ | アコーディオン配列（C-System, Counter Bass版=dim コード無し）|
+| USB ケーブル抜き差し | 前回最後に使っていたアコーディオン配列（C-System）に戻ります。|
 
 
 **このキーボードでは、右手側がマスターとなっていますので、USBケーブルは必ず右手側に接続してください。**
