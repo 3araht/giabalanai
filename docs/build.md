@@ -209,6 +209,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 ### 8.1 コーティングはちょっと自信がない／とりあえず基本機能で動作させたい、という方 ###
 
 コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex)からダウンロードできます。
+**サスティン問題対策版です♪**
 
 初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。  
 https://github.com/qmk/qmk_toolbox
