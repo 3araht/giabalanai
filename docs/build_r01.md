@@ -235,7 +235,38 @@ make giabalanai:default
 
 3. 暫定的に UP している[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードを qmk_firmware/keyboards/giabalanai に上書き保存します。
 
-4. カスタマイズ！  
+4. サスティン問題回避
+MIDIソフトによっては、同じ音を重ねて鳴らしたときにその音にUSBケーブルを抜き差しするまでサスティンがかかってしまう現象がありました。
+対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。
+
+以下の diff 結果を 参考に、 qmk_firmware/quantum/process_keycode/process_midi.c を修正してください。  
+　→　`if (tone_status[tone] == MIDI_INVALID_NOTE) {` `}`を追加します。
+
+```
+diff --git a/quantum/process_keycode/process_midi.c b/quantum/process_keycode/process_midi.c
+index b2fb902eb..e52577014 100644
+--- a/quantum/process_keycode/process_midi.c
++++ b/quantum/process_keycode/process_midi.c
+@@ -68,10 +68,12 @@ bool process_midi(uint16_t keycode, keyrecord_t *record) {
+             uint8_t tone     = keycode - MIDI_TONE_MIN;
+             uint8_t velocity = compute_velocity(midi_config.velocity);
+             if (record->event.pressed) {
+-                uint8_t note = midi_compute_note(keycode);
+-                midi_send_noteon(&midi_device, channel, note, velocity);
+-                dprintf("midi noteon channel:%d note:%d velocity:%d\n", channel, note, velocity);
+-                tone_status[tone] = note;
++                if (tone_status[tone] == MIDI_INVALID_NOTE) {
++                    uint8_t note = midi_compute_note(keycode);
++                    midi_send_noteon(&midi_device, channel, note, velocity);
++                    dprintf("midi noteon channel:%d note:%d velocity:%d\n", channel, note, velocity);
++                    tone_status[tone] = note;
++                }
+             } else {
+                 uint8_t note = tone_status[tone];
+                 if (note != MIDI_INVALID_NOTE) {
+```
+
+5. カスタマイズ！  
 ~~かなり Staggered なので、このキーボードでタイピングすることはあまり考えていないと思いますが、必要に応じてカスタマイズしてお使いください。~~  
 意外と打てました。左手側のキーボードを5x12の60％キーボードとして使えそうです。  
 （また、register switch 機能を付与するなどのカスタマイズは面白いかもしれませんね。）
