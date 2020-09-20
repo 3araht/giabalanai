@@ -225,8 +225,7 @@ https://github.com/qmk/qmk_firmware
 ./util/new_keyboard.sh
 ```
 下図の赤い文字にしたがって進めて行きます。こうすると、正式な手続きでgiabalanai キーボードのフォルダが qmk_firmware/keyboards に出来上がります。  
-<img width="700" alt="new_keyboard" src="https://github.com/3araht/giabalanai/blob/master/pictures/new_keyboard.png">
-
+<img width="700" alt="new_keyboard" src="https://github.com/3araht/giabalanai/blob/master/pictures/new_keyboard.png">  
 また、これにより、qmk_firmware フォルダで  
 ```
 make giabalanai:default
@@ -235,12 +234,11 @@ make giabalanai:default
 
 3. 暫定的に UP している[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードを qmk_firmware/keyboards/giabalanai に上書き保存します。
 
-4. サスティン問題回避
+4. サスティン問題回避  
 MIDIソフトによっては、同じ音を重ねて鳴らしたときにその音にUSBケーブルを抜き差しするまでサスティンがかかってしまう現象がありました。
-対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。
-
+対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。  
 以下の diff 結果を 参考に、 qmk_firmware/quantum/process_keycode/process_midi.c を修正してください。  
-　→　`if (tone_status[tone] == MIDI_INVALID_NOTE) {` `}`を追加します。
+ → `if (tone_status[tone] == MIDI_INVALID_NOTE) {` `}`を追加します。
 
 ```
 diff --git a/quantum/process_keycode/process_midi.c b/quantum/process_keycode/process_midi.c
