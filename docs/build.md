@@ -125,6 +125,10 @@ LEDはデータを直列に伝送する都合上、最上行はオモテ面か�
 こてを斜めにして接触面積を広げるとやり易いという事がわかりました。  
 <img width="700" alt="RGB_LED" src="https://github.com/3araht/giabalanai/blob/master/pictures/LED_solder_iron.jpg">
 
+**注意点**  
+右手側の Pro Micro のすぐ隣の LED を実装する際には、B6 ピンにつかないように十分注意してください。  
+<img width="700" alt="RGB_LED" src="https://github.com/3araht/giabalanai/blob/master/pictures/warning_right_pcb_r02.jpg">
+
 LEDは、右手側 Pro Micro の1番ピン（Tx）から右手側基板の左上のLEDから直列繋ぎにデータを伝達し、右手側基板上の63個のLEDを通過したデータはTRRSケーブルを通じて左手側基板上面からみて右上のLEDから直列繋ぎにデータを伝達します。
 
 右手側基板および左手側基板の下図の位置を半田でジャンパします。
@@ -159,6 +163,10 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 キースイッチをオモテ側からしっかり奥まで差し込みます。このとき、端子が曲がっていると実装穴に端子が入らないので注意してください。1行ずつキースイッチをしっかり差し込んでから半田付けしていった方が差し込み不良は減らせると思います。  
 <img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_front_r02.jpg">  
 <img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_rear_r02.jpg">
+
+**注意点**  
+右手側の Pro Micro のすぐ隣の キースイッチ を実装する際には、B5 ピンにつかないように十分注意してください。  
+<img width="700" alt="RGB_LED" src="https://github.com/3araht/giabalanai/blob/master/pictures/warning_right_pcb_r02.jpg">
 
 ロータリーエンコーダーを実装する場合はここで右手側基板に実装します。
 <img width="700" alt="RotaryEncorder" src="https://github.com/3araht/giabalanai/blob/master/pictures/rotary_encorder.jpg">
