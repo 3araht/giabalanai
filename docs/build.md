@@ -87,7 +87,7 @@ rev.01 と rev.02 の一番の違いは Pro Micro の裏表の実装方法です
 <img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_bend.jpg">
 
 キースイッチと干渉しないように、ダイオードは基板の裏面に実装します。
-ダイオードの黒いほうが四角いフットプリント（Kと印字されている方, K はKathode（独）の頭文字らしい）に合うように配置します。  
+ダイオードの黒い線のほうが四角いフットプリント（Kと印字されている方, K はKathode（独）の頭文字らしいですが、黒（Kuro) の K で。）に合うように配置します。  
 <img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_align1.jpg">
 
 足を曲げて基板に這わせてダイオードを仮止めします。  
