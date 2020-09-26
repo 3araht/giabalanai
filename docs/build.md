@@ -9,12 +9,12 @@ rev.01 と rev.02 の一番の違いは Pro Micro の裏表の実装方法です
 
 ---
 **お詫びと確認のお願い**  
-本日（2020/9/23）、giabalanai キーボード キットをご購入いただいた方から、ダイオードの数が足りないとのご連絡をいただきました。
+2020/9/23 に、giabalanai キーボード キットをご購入いただいた方から、ダイオードの数が足りないとのご連絡をいただきました。
 その方への不足分の発送、Twitterで今回の件についてのご報告、遊舎工房さんの在庫分の確認を行いました。  
-問題の可能性があるキットは、 9/18 〜 本日 9/23 までにご購入された方のキットになります。本日確認できた遊舎工房さんの在庫は問題なかったのですが、単純計算しますと確率的にもう 1 〜 2 セット同様の問題のセットが流出してしまった可能性がございます。
+問題の可能性があるキットは、 9/18 〜 9/23 までにご購入された方のキットになります。9/23 に確認できた遊舎工房さんの在庫は問題なかったのですが、単純計算しますと確率的にもう 1 〜 2 セット同様の問題のセットが流出してしまった可能性がございます。
 今回ご指摘下さった方にこの場で改めてご迷惑をおかけしたことをお詫び申し上げます。
 
-また、9/18 〜 本日 9/23 までにご購入された方皆様には、まず最初に員数の確認をお願い致します。  
+また、9/18 〜 9/23 までにご購入された方皆様には、まず最初に員数の確認をお願い致します。  
 もし員数不足が見つかりましたら、まずは遊舎工房さんにご連絡ください。皆様の個人情報につきましては取り扱いに十分注意し、不足分を最短でお送りするように致します。  
 ご不便・ご迷惑おかけして申し訳ございません。どうぞよろしくお願い申し上げます。  
 
@@ -167,10 +167,15 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 **この時点で Pro Micro を取り付けてはいけません。一度半田付けしてしまった Pro Micro を取り外すのは至難の技です。充分ご注意ください。**
 
 
-## 5 キースイッチ、エンコーダ（Option）の取付け
+## 5 基板へのスペーサーのネジ止め
+スペーサーを左右の基板の裏面にネジで固定します（ネジをオモテ面に挿し、スペーサーが裏面にくるようにします）。  
+キースイッチをはんだ付けした後にはネジを挿入することが難しい箇所があるため、キースイッチをはんだ付けする前に基板にネジを固定します。  
+ただし、半田ごてがスペーサーに触れてしまうとスペーサーが溶けてしまうので、半田付けする際には十分ご注意ください。  
+<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Spacer_r02.jpg">
+
+## 6 キースイッチ、エンコーダ（Option）の取付け
 **スイッチを取り付ける前に部品の取付けや半田付けができているか確認します。**  
 （1 のダイオードは必ず済ませておいてください。）  
-
 
 ※スプリングピンヘッダを使用する場合は6と8の工程を先に行い、動作確認(下図のようにキースイッチ部をピンセットなどでショートさせ、MIDI機器を認識するソフトで音が出るか確かめる事)をすると失敗する可能性が減ります。  
 <img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_test.jpg">
@@ -187,7 +192,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 <img width="700" alt="RotaryEncorder" src="https://github.com/3araht/giabalanai/blob/master/pictures/rotary_encorder.jpg">
 
 
-## 6 Pro Micro の取付け
+## 7 Pro Micro の取付け
 **作業前に Pro Micro をUSBでPCと繋げて動作を確認しておきましょう。**
 取り付ける前に半田忘れがないか確認します。
 左右の基板とも Pro Micro を表にして取り付けられるようになります。
@@ -211,20 +216,6 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 コンスルーを Pro Micro に実装した様子  
 <img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/ProMicro_TxD_r02.jpg">    
 <img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/ProMicro_front_r02.jpg">    
-
-## 7 ボトムプレート、スペーサーの組み立て
-ボトムプレートの、図の赤丸の位置 10 箇所に M2 のねじで スペーサーを取り付けます。  
-<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/BottomPlate_r02.jpg">  
-<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/SpacerOnBottomPlate.jpg">
-
-キースイッチの間にネジをセットするにはピンセットを使います。  
-<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/ScrewSettingWIthTweezers.jpg">
-
-ネジ止めは、たすき掛けで均一に締めつけますが、強く締めつけすぎないようにします。
-
-
-緑丸の位置にクッションシールを取り付けます。  
-<img width="700" alt="feet" src="https://github.com/3araht/giabalanai/blob/master/pictures/Cushon_r02.jpg">
 
 ## 8 Firmwareの書き込み
 左右の基板の Pro Micro に同じHEXファイルを書き込みます。
@@ -357,3 +348,15 @@ USBケーブルを接続したら、アコーディオンの配列になりま�
 - 半田付けに問題はないか（ダイオードの向き、赤目、富士山、など）。
 
 また、遊舎工房さんの[サポートサイト](https://yushakobo.zendesk.com/hc/ja)が参考になると思います。併せてご覧ください。
+
+## 10 ボトムプレート、スペーサーの組み立て
+全てのキースイッチが正しく動作するのを確認したら、左右の基板に取り付けたスペーサーにボトムプレートを固定します。
+ボトムプレートの図の赤丸の位置 10 箇所に M2 のねじでを挿入して固定します。  
+<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/BottomPlate_r02.jpg">  
+
+ネジ止めは、たすき掛けで均一に締めつけますが、強く締めつけすぎないようにします。
+
+緑丸の位置にクッションシールを取り付けます。  
+<img width="700" alt="feet" src="https://github.com/3araht/giabalanai/blob/master/pictures/Cushon_r02.jpg">
+
+##### お疲れ様でした。以上で giabalanai キーボードの完成です！
