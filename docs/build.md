@@ -297,9 +297,10 @@ index b2fb902eb..e52577014 100644
 
 
 ### 8.3 default について
-**上記コンパイル済のHEXファイルは下記に示すdefault 設定に加えてLEDが実装されていれば押したキーのLED が発光するようになっています。**
+**上記コンパイル済のHEXファイルは下記に示すdefault 設定に加えて、1. LEDが実装されていれば押したキーのLED が発光、2. QWERTY配列からADJUSTレイヤーへの移動が可能、3. オクターブ調整が可能なようになっています。**
 
-USBケーブルを接続したら、アコーディオンの配列になります。
+USBケーブルを接続したら、アコーディオンの配列になります。  
+**このキーボードでは、右手側がマスターとなっていますので、USBケーブルは必ず右手側に接続してください。**
 
 エンコーダを右に回すと音量が大きくなり、左に回すと小さくなるようになっています。
 エンコーダは押しボタンにもなっており、押すとミュートON/OFFを切り替えるようになっています。
@@ -332,8 +333,14 @@ USBケーブルを接続したら、アコーディオンの配列になりま�
 |エンコーダーボタン長押し＋右手側キーボード 3行5列目のG# | 2オクターブ高く|
 | USB ケーブル抜き差し | 前回最後に使っていたアコーディオン配列に戻ります。オクターブは基準音階に戻ります。|
 
+エンコーダボタン長押ししたときの様子  
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_FN_layer.png">    
 
-**このキーボードでは、右手側がマスターとなっていますので、USBケーブルは必ず右手側に接続してください。**
+QWERTY 配列  
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_QWERTY_layout_comment.png">    
+
+ADJUST レイヤー  
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_Adjust_layer.png">  
 
 ## 9 チェックポイント
 簡単なチェック項目を挙げます。参考になれば幸いです。
@@ -359,4 +366,4 @@ USBケーブルを接続したら、アコーディオンの配列になりま�
 緑丸の位置にクッションシールを取り付けます。  
 <img width="700" alt="feet" src="https://github.com/3araht/giabalanai/blob/master/pictures/Cushon_r02.jpg">
 
-##### お疲れ様でした。以上で giabalanai キーボードの完成です！
+#### お疲れ様でした。以上で giabalanai キーボードの完成です！
