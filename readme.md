@@ -5,7 +5,11 @@
 ![giabalanai overview](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg)
 
 giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys = 38 notes) which doesn't have bellows nor register switches.
-A rotary encoder can be used for adjusting system volume of your computer (PC / Mac).
+A rotary encoder can be used for adjusting system volume of your computer (PC / Mac / iPad).
+
+It works on iPad as well, tested with the below adapter used with a power supply. The power supply is necessary to use giabalanai on iPad. Make sure to use "Lightning to USB 3 Camera Adapter", not "Lightning to USB Camera Adapter".  
+https://www.apple.com/shop/product/MK0W2AM/A/lightning-to-usb-3-camera-adapter
+
 
 # How it looks & how it works
 Check these short videos ([video1](https://github.com/3araht/giabalanai/blob/master/videos/giabalanai_keyboard.mp4), [video2](https://github.com/3araht/giabalanai/blob/master/videos/62buttons_38notes.mp4)) to see what it's like.
@@ -73,7 +77,6 @@ The uploaded hex file has this patch applied.
 Now we do have the same issue found with Ableton Live 10 when GarageBand is used.
 However, it is much less troublesome to play and enjoy the chromatic button accordion-ish keyboard giabalanai.  
 Have fun!!!
-
 
 # Build Guide
 
