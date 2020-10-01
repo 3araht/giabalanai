@@ -237,7 +237,7 @@ Macをご使用の方: インストール方法が違うだけで、基本的に
 以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。  
 https://docs.qmk.fm/#/getting_started_build_tools
 
-giabalanai の Firmware は以下にUPされるよう push request 中です。
+giabalanai の Firmware は以下にUPされるよう push request 中です(まだリンク切れ状態です)。  
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai
 
 それまで、暫定的に[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードをお使いください。
