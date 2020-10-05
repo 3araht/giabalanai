@@ -224,7 +224,6 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 ### 8.1 コーティングはちょっと自信がない／とりあえず基本機能で動作させたい、という方 ###
 
 コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex)からダウンロードできます。
-**サスティン問題対策版です♪**
 
 初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。  
 https://github.com/qmk/qmk_toolbox
@@ -264,32 +263,8 @@ make giabalanai:default
 
 4. サスティン問題回避  
 MIDIソフトによっては、同じ音を重ねて鳴らしたときにその音にUSBケーブルを抜き差しするまでサスティンがかかってしまう現象がありました。
-対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。  
-以下の diff 結果を 参考に、 qmk_firmware/quantum/process_keycode/process_midi.c を修正してください。  
- → `if (tone_status[tone] == MIDI_INVALID_NOTE) {` `}`を追加します。  
-```
-diff --git a/quantum/process_keycode/process_midi.c b/quantum/process_keycode/process_midi.c
-index b2fb902eb..e52577014 100644
---- a/quantum/process_keycode/process_midi.c
-+++ b/quantum/process_keycode/process_midi.c
-@@ -68,10 +68,12 @@ bool process_midi(uint16_t keycode, keyrecord_t *record) {
-             uint8_t tone     = keycode - MIDI_TONE_MIN;
-             uint8_t velocity = compute_velocity(midi_config.velocity);
-             if (record->event.pressed) {
--                uint8_t note = midi_compute_note(keycode);
--                midi_send_noteon(&midi_device, channel, note, velocity);
--                dprintf("midi noteon channel:%d note:%d velocity:%d\n", channel, note, velocity);
--                tone_status[tone] = note;
-+                if (tone_status[tone] == MIDI_INVALID_NOTE) {
-+                    uint8_t note = midi_compute_note(keycode);
-+                    midi_send_noteon(&midi_device, channel, note, velocity);
-+                    dprintf("midi noteon channel:%d note:%d velocity:%d\n", channel, note, velocity);
-+                    tone_status[tone] = note;
-+                }
-             } else {
-                 uint8_t note = tone_status[tone];
-                 if (note != MIDI_INVALID_NOTE) {
-```
+~~対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。~~  
+2020/10/5 pull request が メインブランチにマージされました。最新のソフトを clone いただければOKです。
 
 5. カスタマイズ！  
 ~~かなり Staggered なので、このキーボードでタイピングすることはあまり考えていないと思いますが、必要に応じてカスタマイズしてお使いください。~~  
