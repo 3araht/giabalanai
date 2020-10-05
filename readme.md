@@ -41,6 +41,6 @@ http://twitter.com/3araht
 #### Origin of the name: giabalanai
 When you pronounce giabalanai, it sounds like "蛇腹無い" in Japanese = *bellows-less*, which represents the keyboard.
 
-Well, the ancestor of this keyboard is located in Italy ;-) so an Italian spelling method is used.
+Well, the ancestor of this keyboard is located in Italy ;-) so the Italian spelling method is used.
 That's why it is not *jabaranai* but giabalanai.
 <!--- not jabaranai but giabalanai ジャバラナイの名前の由来 -->
