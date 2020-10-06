@@ -7,20 +7,6 @@ rev.01 と rev.02 の一番の違いは Pro Micro の裏表の実装方法です
 
 **一度すべて読んでから組み立てることをお勧めします。**
 
----
-**お詫びと確認のお願い**  
-2020/9/23 に、giabalanai キーボード キットをご購入いただいた方から、ダイオードの数が足りないとのご連絡をいただきました。
-その方への不足分の発送、Twitterで今回の件についてのご報告、遊舎工房さんの在庫分の確認を行いました。  
-問題の可能性があるキットは、 9/18 〜 9/23 までにご購入された方のキットになります。9/23 に確認できた遊舎工房さんの在庫は問題なかったのですが、単純計算しますと確率的にもう 1 〜 2 セット同様の問題のセットが流出してしまった可能性がございます。
-今回ご指摘下さった方にこの場で改めてご迷惑をおかけしたことをお詫び申し上げます。
-
-また、9/18 〜 9/23 までにご購入された方皆様には、まず最初に員数の確認をお願い致します。  
-もし員数不足が見つかりましたら、まずは遊舎工房さんにご連絡ください。皆様の個人情報につきましては取り扱いに十分注意し、不足分を最短でお送りするように致します。  
-ご不便・ご迷惑おかけして申し訳ございません。どうぞよろしくお願い申し上げます。  
-
-今後の防止策と致しましては、タブルチェックの強化および予備の同梱により最悪員数が下振れしても必要数量を下回らないように致します。  
-
----
 
 ## 0 パーツの確認、各部品の実装面の整理
 ### キット付属品
@@ -317,7 +303,7 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 | USB ケーブル抜き差し | 前回最後に使っていたアコーディオン配列に戻ります。オクターブは基準音階に戻ります。|
 
 エンコーダボタン長押ししたときの様子  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_FN_layer.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20201006_giabalanai_FN_layer.png">    
 
 QWERTY 配列  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_QWERTY_layout_comment.png">    
@@ -350,3 +336,13 @@ ADJUST レイヤー
 <img width="700" alt="feet" src="https://github.com/3araht/giabalanai/blob/master/pictures/Cushon_r02.jpg">
 
 #### お疲れ様でした。以上で giabalanai キーボードの完成です！
+
+---
+##### 11 (アーカイブ) 過去のご案内
+
+- 2020/09/08 r01 ビルドガイド ([こちら](https://github.com/3araht/giabalanai/blob/master/docs/build_r01.md))
+- 2020/09/20 サスティン問題回避方法 ([こちら](https://github.com/3araht/giabalanai/blob/master/docs/old/20200920.md))
+- 2020/09/23 ダイオード員数不足のお詫びと確認のお願い ([こちら](https://github.com/3araht/giabalanai/blob/master/docs/old/20200923.md))
+
+
+---
