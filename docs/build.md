@@ -311,6 +311,9 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 |エンコーダーボタン長押し＋右手側キーボード 3行5列目のG# | 2オクターブ高く|
 | USB ケーブル抜き差し | 前回最後に使っていたアコーディオン配列に戻ります。オクターブは基準音階に戻ります。|
 
+音符のレイアウト一覧  
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_notes_layout_3araht.png">    
+
 エンコーダボタン長押ししたときの様子  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20201015_giabalanai_FN_layer.png">    
 
