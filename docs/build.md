@@ -324,7 +324,7 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 下の「エンコーダボタン長押ししたときの様子 Function(FN) Layer」をご覧ください。  
 
 音符のレイアウト一覧  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_notes_layout_3araht.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20201130_giabalanai_notes_layout_3araht.png">    
 
 エンコーダボタン長押ししたときの様子 Function(FN) Layer  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20201130_giabalanai_FN_layer.png">    
