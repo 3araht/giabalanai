@@ -21,7 +21,7 @@ USB-C タイプの iPad の場合は [USB-C Digital AV Multiportアダプタ](ht
 
 [こちら](https://github.com/3araht/giabalanai/blob/master/videos/giabala_dangi_ep.16_theme_song_feat.Mr.Seto.mp4) は蛇腹談義のジングル(https://www.youtube.com/watch?v=WSVRJk6kDiM) を弾こうとしている様子です。
 
-[こちら](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) も併せてご覧ください。
+[私の YouTube チャンネル](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) も併せてご覧ください。
 
 # キーボードキット
 giabalani キーボードキットは遊舎工房さんでで販売いただいております。  
@@ -30,7 +30,7 @@ giabalani キーボードキットは遊舎工房さんでで販売いただい�
 # ファームウェア
 
 giabalanai は QMK firmware を使っています。Push request が通れば下記からダウンロードできると思います:
-[QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai)
+[QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai)。
 
 暫定的に [こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai) からベータ版をダウンロード下さい。
 
@@ -56,31 +56,31 @@ https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/
 
 
 # giabalani keyboard
-giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys = 38 notes) which doesn't have bellows nor register switches.
-A rotary encoder can be used for adjusting system volume of your computer.
-giabalani works with PC, Mac, iPad and iPhone.
-(It works with Android as well. Thanks to @elekit_official, for sharing the info.)
+giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys = 38 notes) that doesn't have bellows nor register switches.
+A rotary encoder can be used for adjusting the system volume of your computer.
+giabalani works with PC, Mac, iPad, and iPhone.
+(It works with Android as well. Thanks to @elekit_official for sharing the info.)
 
-When using it with iPad or iPhone, it works when the below adapter is used with a power supply. The power supply is necessary to use giabalanai on iPad and iPhone. Make sure to use "[Lightning to USB 3 Camera Adapter](https://www.apple.com/shop/product/MK0W2AM/A/)", not "Lightning to USB Camera Adapter".  
+When using it with iPad or iPhone, it works when the below adapter is used with a power supply. The power supply is necessary to use giabalanai on iPad and iPhone. Make sure to use "[Lightning to USB 3 Camera Adapter](https://www.apple.com/shop/product/MK0W2AM/A/)", not "Lightning to USB Camera Adapter."  
 
 
 It would work with [USB-C Digital AV Multiport Adapter](https://www.apple.com/shop/product/MUF82AM/A/) for the USB-C type iPads ( Since I don't have the latest iPad, it is not confirmed ).
 
 
 # How it looks & how it works
-Check these short videos ([video1](https://github.com/3araht/giabalanai/blob/master/videos/giabalanai_keyboard.mp4), [video2](https://github.com/3araht/giabalanai/blob/master/videos/62buttons_38notes.mp4)) to see what it's like.
+Check these short videos ([video1](https://github.com/3araht/giabalanai/blob/master/videos/giabalanai_keyboard.mp4), [video2](https://github.com/3araht/giabalanai/blob/master/videos/62buttons_38notes.mp4)) to see how it looks & how it works.
 
 Here's another [video](https://github.com/3araht/giabalanai/blob/master/videos/giabala_dangi_ep.16_theme_song_feat.Mr.Seto.mp4), trying to play (pardon my poor playing skills) a theme song of Giabala-Dangi (https://www.youtube.com/watch?v=WSVRJk6kDiM).
 
-Check [here](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) for more videos.
+Check [my YouTube channel](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) for more videos.
 
 # Keyboard kit
 The keyboard kit is available [here](https://yushakobo.jp/shop/consign_giabalanai/).
 
 # Firmware
 
-The giabalanai uses QMK for its firmware, and the codes for it will be available here as the push request is accepted:
-[QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai)
+The giabalanai uses QMK for its firmware. The codes for it will be available here as the push request is accepted:
+[QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai).
 
 Temporarily, please download codes from [here](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai) as a "beta" version.
 
@@ -89,6 +89,8 @@ Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/m
 # Build Guide
 
 [Japanese Build Guide](https://github.com/3araht/giabalanai/blob/master/docs/build.md)
+Try [Google Translate](https://translate.google.com/translate?sl=ja&tl=en&u=https://github.com/3araht/giabalanai/blob) for your language preferences.
+
 
 # Contact
 If you need any help, you know where to find me.  
