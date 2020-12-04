@@ -88,8 +88,8 @@ Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/m
 
 # Build Guide
 
-[Japanese Build Guide](https://github.com/3araht/giabalanai/blob/master/docs/build.md)
-Try [Google Translate](https://translate.google.com/translate?sl=ja&tl=en&u=https://github.com/3araht/giabalanai/blob) for your language preferences.
+[Japanese Build Guide](https://github.com/3araht/giabalanai/blob/master/docs/build.md)  
+Try [Google Translated guide](https://translate.google.com/translate?sl=ja&tl=en&u=https://github.com/3araht/giabalanai/blob) for your language preferences.
 
 
 # Contact
