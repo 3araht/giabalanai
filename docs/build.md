@@ -214,9 +214,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 
 ### 8.1 コーティングはちょっと自信がない／とりあえず基本機能で動作させたい、という方 ###
 
-コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex)からダウンロードできます。  
-hexファイルの保存方法： リンク先で「生」もしくは"Raw" と書かれたボタンを押した後、右クリックで「名前をつけて保存」してください。  
-<img width="500" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/hexDownload.png">   
+コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip)からダウンロードできます。  
 
 初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。  
 https://github.com/qmk/qmk_toolbox

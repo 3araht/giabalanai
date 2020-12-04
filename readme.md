@@ -34,7 +34,7 @@ giabalanai は QMK firmware を使っています。Push request が通れば下
 
 暫定的に [こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai) からベータ版をダウンロード下さい。
 
-もしくは、こちらのコンパイル済の [hex file](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex) をお使いください (RGB_LIGHTING 有効).
+もしくは、こちらのコンパイル済の [hex file](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip) をお使いください (RGB_LIGHTING 有効).
 
 # ビルドガイド
 
@@ -84,7 +84,7 @@ The giabalanai uses QMK for its firmware, and the codes for it will be available
 
 Temporarily, please download codes from [here](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai) as a "beta" version.
 
-Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex) for your convenience (RGB_LIGHTING enabled).
+Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip) for your convenience (RGB_LIGHTING enabled).
 
 # Build Guide
 
