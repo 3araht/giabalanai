@@ -294,17 +294,22 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 
 オクターブ調整もできるようになりました。
 
-また、ベース音を単音と2和音の切り替えができるようになりました。
-（9290kenji さん、ご要望いただきありがとうございました。）  
+また、ベース音を単音と2和音の切り替えができるようになりました
+（9290kenji さん、ご要望いただきありがとうございました）。  
 
+さらに、giabaLEnai リリースに伴い、USBケーブルを右側から出したい、というご要望にお答えすべく C-System （右手側）の180°反転版のレイヤーを追加しました
+（benjaminbworks さん、ご要望いただきありがとうございました）。  
+180°しても5列全てC-Systemの配置として使えます。  
+（想定してました。嘘です。結果オーライ大ショットです。）
 
 |                               操作                    |       変更先レイヤー（配列）  | 記号 |
 |------------------------------------------------------|----------------------------|-----|
 | エンコーダーボタン長押し＋左手側キーボード 1行1列目のD♭ | アコーディオン配列（C-System）＝初期設定| CSYSTEM |
 | エンコーダーボタン長押し＋左手側キーボード 1行2列目のA♭ | アコーディオン配列（B-System、ただし下3行のみ)| BSYSTEM |
-| エンコーダーボタン長押し＋左手側キーボード 1行3列目のE♭ | アコーディオン配列（C-System, Counter Bass版=dim コード無し）| CNTBASC |
+| エンコーダーボタン長押し＋左手側キーボード 1行3列目のE♭ | アコーディオン配列（C-System, Counter Bass版 = dim コード無し）| CNTBASC |
 | エンコーダーボタン長押し＋左手側キーボード 1行4列目のB♭ | アコーディオン配列（C-System, 左右のキーボード共に単音配列）| CSYSALL |
-| エンコーダーボタン長押し＋左手側キーボード 1行5列目のF | クロマトーン配列(Chromatone, 左右のキーボード共に単音配列）| CHRTONE |
+| エンコーダーボタン長押し＋左手側キーボード 1行5列目のF  | クロマトーン配列(Chromatone, 左右のキーボード共に単音配列）| CHRTONE |
+| エンコーダーボタン長押し＋左手側キーボード 1行6列目のC  | アコーディオン配列 (C-Sustem 右手側180°反転版。左手はCounter Bass反転せず）| CFLIP2B |
 | エンコーダーボタン長押し＋左手側キーボード 1行12列目のF# | LED ON/OFF 切り替え（LED を実装している場合）| RGB_TOG |
 | エンコーダーボタン長押し＋左手側キーボード 2行1列目のD♭Major | QWERTY 配列（左手側キーボード）| DF_QWER |
 | エンコーダーボタン長押し＋左手側キーボード 2行2列目のA♭Major | Bass 音 単音 or 2和音 切り替え（初期設定： 2和音）| TGLBASS |
@@ -325,7 +330,7 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20201130_giabalanai_notes_layout_3araht.png">    
 
 エンコーダボタン長押ししたときの様子 Function(FN) Layer  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20201130_giabalanai_FN_layer.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20201205_giabalanai_FN_layer.png">    
 
 QWERTY 配列  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_QWERTY_layout_comment.png">    
