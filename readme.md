@@ -55,7 +55,7 @@ https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/
 <!--- not jabaranai but giabalanai ジャバラナイの名前の由来 -->
 
 
-![giabalanai lighting](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_lighting.jpg)
+![giabalanai lighting](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_lighting2.jpg)
 
 # giabalani keyboard
 giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys = 38 notes) that doesn't have bellows nor register switches.
