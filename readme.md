@@ -24,8 +24,10 @@ USB-C タイプの iPad の場合は [USB-C Digital AV Multiportアダプタ](ht
 [私の YouTube チャンネル](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) も併せてご覧ください。
 
 # キーボードキット
-giabalani キーボードキットは遊舎工房さんでで販売いただいております。  
-販売ページへのリンクは[こちら](https://yushakobo.jp/shop/consign_giabalanai/)。
+giabalani キーボードキットは遊舎工房さん、BOOTHでお求めいただけます。  
+[遊舎工房 販売ページへのリンクはこちら](https://yushakobo.jp/shop/consign_giabalanai/)。  
+
+[BOOTH 販売ページへのリンクはこちら](https://3araht.booth.pm/)。
 
 # ファームウェア
 
@@ -77,7 +79,9 @@ Here's another [video](https://github.com/3araht/giabalanai/blob/master/videos/g
 Check [my YouTube channel](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) for more videos.
 
 # Keyboard kit
-The keyboard kit is available [here](https://yushakobo.jp/shop/consign_giabalanai/).
+The keyboard kit is available from [Yushakobo](https://yushakobo.jp/shop/consign_giabalanai/), or from [BOOTH](https://3araht.booth.pm/).  
+
+Click [here](https://www.tenso.com/en/static/lp_shop_booth) for BOOTH overseas shipping!
 
 # Firmware
 
