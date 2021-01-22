@@ -14,6 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include QMK_KEYBOARD_H
+#include "split_util.h"
 #include "print.h"
 
 // Alias layout macros that expand groups of keys.
@@ -447,6 +448,12 @@ void keyboard_post_init_user(void) {
 
     //  load EEPROM data for isSingleBass
     user_config.raw = eeconfig_read_user();
+
+    // When USB cable is connected to the left side keyboard, use QWERTY layout by default.
+    if (is_keyboard_master() && isLeftHand) {
+        default_layer_set(1UL << _QWERTY);
+    }
+
 
 #ifdef RGBLIGHT_ENABLE
 
