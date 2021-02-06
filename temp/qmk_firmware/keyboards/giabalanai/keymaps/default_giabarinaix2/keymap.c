@@ -16,7 +16,7 @@
 #include QMK_KEYBOARD_H
 
 // Alias layout macros that expand groups of keys.
-#define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
+#define LAYOUT_wrapper_giabaRInaix2(...) LAYOUT_giabaRInaix2(__VA_ARGS__)
 
 #define _________________QWERTY_L1_________________ KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
 #define _________________QWERTY_L2_________________ KC_A,    KC_S,    KC_D,    KC_F,    KC_G
@@ -150,45 +150,48 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   /* C-system Base */
-  [_C_SYSTEM_BASE] = LAYOUT(
+  [_C_SYSTEM_BASE] = LAYOUT_giabaRInaix2(
     MI_CH_Dbr,    MI_CH_Abr,    MI_CH_Ebr,    MI_CH_Bbr,    MI_CH_Fr,    MI_CH_Cr,    MI_CH_Gr,    MI_CH_Dr,    MI_CH_Ar,    MI_CH_Er,    MI_CH_Br,    MI_CH_Fsr,
       MI_CH_Db,     MI_CH_Ab,     MI_CH_Eb,     MI_CH_Bb,     MI_CH_F,     MI_CH_C,     MI_CH_G,     MI_CH_D,     MI_CH_A,     MI_CH_E,     MI_CH_B,     MI_CH_Fs,
         MI_CH_Dbm,    MI_CH_Abm,    MI_CH_Ebm,    MI_CH_Bbm,    MI_CH_Fm,    MI_CH_Cm,    MI_CH_Gm,    MI_CH_Dm,    MI_CH_Am,    MI_CH_Em,    MI_CH_Bm,    MI_CH_Fsm,
           MI_CH_DbDom7, MI_CH_AbDom7, MI_CH_EbDom7, MI_CH_BbDom7, MI_CH_FDom7, MI_CH_CDom7, MI_CH_GDom7, MI_CH_DDom7, MI_CH_ADom7, MI_CH_EDom7, MI_CH_BDom7, MI_CH_FsDom7,
             MI_CH_DbDim7, MI_CH_AbDim7, MI_CH_EbDim7, MI_CH_BbDim7, MI_CH_FDim7, MI_CH_CDim7, MI_CH_GDim7, MI_CH_DDim7, MI_CH_ADim7, MI_CH_EDim7, MI_CH_BDim7, MI_CH_FsDim7,
 
-    MI_Fs_2,
-      MI_Ab_2, MI_B_2,  MI_D_3,  MI_F_3,  MI_Ab_3, MI_B_3,  MI_D_4,  MI_F_4,  MI_Ab_4, MI_B_4,  MI_D_5,  MI_F_5,    FN_MUTE,
-    MI_G_2,  MI_Bb_2, MI_Db_3, MI_E_3,  MI_G_3,  MI_Bb_3, MI_Db_4, MI_E_4,  MI_G_4,  MI_Bb_4, MI_Db_5, MI_E_5,  MI_G_5,
-      MI_A_2,  MI_C_3,  MI_Eb_3, MI_Fs_3, MI_A_3,  MI_C_4,  MI_Eb_4, MI_Fs_4, MI_A_4,  MI_C_5,  MI_Eb_5, MI_Fs_5
+    MI_Db_2,      MI_E_2,       MI_G_2,       MI_Bb_2,      MI_Db_3,     MI_E_3,      MI_G_3,      MI_Bb_3,     MI_Db_4,     MI_E_4,      MI_G_4,      MI_Bb_4,
+      MI_Eb_2,      MI_Fs_2,      MI_A_2,       MI_C_3,       MI_Eb_3,     MI_Fs_3,     MI_A_3,      MI_C_4,      MI_Eb_4,     MI_Fs_4,     MI_A_4,      MI_C_5,
+        MI_F_2,       MI_Ab_2,      MI_B_2,       MI_D_3,       MI_F_3,      MI_Ab_3,     MI_B_3,      MI_D_4,      MI_F_4,      MI_Ab_4,     MI_B_4,      MI_D_5,
+          MI_G_2,       MI_Bb_2,      MI_Db_3,      MI_E_3,       MI_G_3,      MI_Bb_3,     MI_Db_4,     MI_E_4,      MI_G_4,      MI_Bb_4,     MI_Db_5,     MI_E_5,
+            MI_A_2,       MI_C_3,       MI_Eb_3,      MI_Fs_3,      MI_A_3,      MI_C_4,      MI_Eb_4,     MI_Fs_4,     MI_A_4,      MI_C_5,      MI_Eb_5,     FN_MUTE
   ),
 
   /* QWERTY */
-  [_QWERTY] = LAYOUT_wrapper(
+  [_QWERTY] = LAYOUT_wrapper_giabaRInaix2(
     KC_GESC, _________________NUMBER_L__________________, _________________NUMBER_R__________________, KC_BSPC,
       KC_TAB,  _________________QWERTY_L1_________________, _________________QWERTY_R1_________________, KC_DEL,
         KC_CAPS, _________________QWERTY_L2_________________, _________________QWERTY_R2_________________, KC_ENT,
           KC_LSFT, _________________QWERTY_L3_________________, _________________QWERTY_R3_________________, KC_RSFT,
             KC_LCTL, KC_LGUI, KC_LALT, KC_LANG2, KC_SPC,  KC_SPC, KC_SPC, KC_SPC, KC_LANG1, KC_RALT,  KC_RGUI, KC_RCTRL,
 
-    _______,
-      _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,   _______,
-    _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
-      _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+    _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+      _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+          _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+            _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
   ),
 
   /* Fn */
-  [_FN] = LAYOUT(
+  [_FN] = LAYOUT_giabaRInaix2(
     DFCBASE, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
       DF_QWER, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
           XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
             XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
 
-    XXXXXXX,
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   _______,
-    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+          XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+            XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  _______
   )
 };
 
@@ -239,15 +242,3 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     }
     return true;
 }
-
-#ifdef ENCODER_ENABLE
-void encoder_update_user(int8_t index, bool clockwise) {
-    if (index == 1) { /* An encoder on the right side */
-        if (clockwise) {
-            tap_code(KC_VOLU);
-        } else {
-            tap_code(KC_VOLD);
-        }
-    }
-}
-#endif  // ENCODER_ENABLE
