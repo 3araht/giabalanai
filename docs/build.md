@@ -219,9 +219,9 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。  
 
 普通の Pro Micro をお使いの場合は Pro Micro Web Updater  
-https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox
+https://sekigon-gonnoc.github.io/promicro-web-updater/index.html
 
-Elite-C をお使いの場合は QMK Toolbox
+Elite-C をお使いの場合は QMK Toolbox  
 https://github.com/qmk/qmk_toolbox
 
 これらの使い方は サリチル酸さんの[記事](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)がとても参考になります(サリチル酸さん、どうもありがとうございます)。
