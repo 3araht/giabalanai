@@ -217,11 +217,15 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip)からダウンロードできます。  
 
 初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。  
+
+普通の Pro Micro をお使いの場合は Pro Micro Web Updater  
+https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox
+
+Elite-C をお使いの場合は QMK Toolbox
 https://github.com/qmk/qmk_toolbox
 
-QMK Toolbox の使い方（Win版） は サリチル酸さんの[記事](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)がとても参考になります(サリチル酸さん、どうもありがとうございます)。
+これらの使い方は サリチル酸さんの[記事](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)がとても参考になります(サリチル酸さん、どうもありがとうございます)。
 
-Macをご使用の方: インストール方法が違うだけで、基本的には同じです。
 
 ### 8.2 コーティングに慣れている方、チャレンジされる方 ###
 
