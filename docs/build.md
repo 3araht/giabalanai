@@ -212,7 +212,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 ## 8 Firmwareの書き込み
 左右の基板の Pro Micro に同じHEXファイルを書き込みます。
 
-### 8.1 コーティングはちょっと自信がない／とりあえず基本機能で動作させたい、という方 ###
+### 8.1 コーディングはちょっと自信がない／とりあえず基本機能で動作させたい、という方 ###
 
 コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip)からダウンロードできます。  
 
@@ -227,7 +227,7 @@ https://github.com/qmk/qmk_toolbox
 これらの使い方は サリチル酸さんの[記事](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)がとても参考になります(サリチル酸さん、どうもありがとうございます)。
 
 
-### 8.2 コーティングに慣れている方、チャレンジされる方 ###
+### 8.2 コーディングに慣れている方、チャレンジされる方 ###
 
 以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。  
 https://docs.qmk.fm/#/getting_started_build_tools
