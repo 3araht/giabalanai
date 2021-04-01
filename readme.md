@@ -4,14 +4,14 @@
 
 ![giabalanai overview](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg)
 
-# giabalani キーボード
+# giabalanai キーボード
 giabalanai キーボードは蛇腹もレジスタスイッチも無いシンプルデザインのクロマチックボタンアコーディオンチックな MIDI キーボード (60 ベース + C-system 62 鍵 = 38 音) です。
 ロータリーエンコーダはシステム音量の調整に使用することが可能です。
-giabalani は PC / Mac / iPad / iPhone で動作します。
+giabalanai は PC / Mac / iPad / iPhone で動作します。
 (Android でも動作するそうです。ELEKIT（イーケイジャパン）さん、情報シェアいただきありがとうございます。)
 
 iPad や iPhone で使う場合、下記に示すアダプターを使って電源供給しながら使えることを確認しています。
-iPad や iPhone で giabalani を使う場合には電源が必要ですので、必ず "[Lightning - USB 3カメラアダプタ](https://www.apple.com/jp/shop/product/MK0W2AM/A/)" をお使いください。
+iPad や iPhone で giabalanai を使う場合には電源が必要ですので、必ず "[Lightning - USB 3カメラアダプタ](https://www.apple.com/jp/shop/product/MK0W2AM/A/)" をお使いください。
 "Lightning - USBカメラアダプタ" では電源供給ができません。
 
 USB-C タイプの iPad の場合は [USB-C Digital AV Multiportアダプタ](https://www.apple.com/jp/shop/product/MUF82ZA/A/)でしょうか（最新の iPad を所有していない為、動作未確認）。  
@@ -24,7 +24,7 @@ USB-C タイプの iPad の場合は [USB-C Digital AV Multiportアダプタ](ht
 [私の YouTube チャンネル](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) も併せてご覧ください。
 
 # キーボードキット
-giabalani キーボードキットは遊舎工房さん、BOOTHでお求めいただけます。  
+giabalanai キーボードキットは遊舎工房さん、BOOTHでお求めいただけます。  
 [遊舎工房 販売ページへのリンクはこちら](https://yushakobo.jp/shop/consign_giabalanai/)。  
 
 [BOOTH 販売ページへのリンクはこちら](https://3araht.booth.pm/)。
@@ -59,10 +59,10 @@ https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/
 
 ![giabalanai lighting](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_lighting2.jpg)
 
-# giabalani keyboard
+# giabalanai keyboard
 giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys = 38 notes) that doesn't have bellows nor register switches.
 A rotary encoder can be used for adjusting the system volume of your computer.
-giabalani works with PC, Mac, iPad, and iPhone.
+giabalanai works with PC, Mac, iPad, and iPhone.
 (It works with Android as well. Thanks to @elekit_official for sharing the info.)
 
 When using it with iPad or iPhone, it works when the below adapter is used with a power supply. The power supply is necessary to use giabalanai on iPad and iPhone. Make sure to use "[Lightning to USB 3 Camera Adapter](https://www.apple.com/shop/product/MK0W2AM/A/)", not "Lightning to USB Camera Adapter."  
