@@ -354,6 +354,10 @@ make giabalanai:2firmware:avrdude-split-left
 make giabalanai:2firmware:avrdude-split-right  
 ```
 
+(2021/04/03 追記。Pro Micro Web Updater でも左右のSplit keyboard の指定が可能で、書き込みが可能です。せきごんさんに感謝。)
+Pro Micro Web Updater  
+https://sekigon-gonnoc.github.io/promicro-web-updater/index.html
+
 では、何のメリットがあるかと申しますと、USBケーブルを左側のキーボードに接続したときは
 QWERTY配列がデフォルトとなるようにしました（Haruさん、ご要望いただきありがとうございます）。
 つまり、いつも通り右手側のUSBに接続すればアコーディオン配列がデフォルト、左手側のUSBに接続すればタイピング用のQWERTY配列がデフォルト、という使い方ができるようになりました。
