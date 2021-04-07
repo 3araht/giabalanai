@@ -215,7 +215,7 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 ### 8.1 コーディングはちょっと自信がない／とりあえず動作させたい、という方
 #### 8.1.1 とりあえず全部入り版、という方 ####
 
-LEDが光ったり、[下記](https://github.com/3araht/giabalanai/blob/master/docs/build.md#84-%E4%B8%8A%E8%A8%98%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%AB%E6%B8%88%E3%81%AEhex%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABgiabalanai_3arahthex-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)に示す、みなさまのご要望にお答えし増やしたレイヤーなどが盛り込まれた全部入り版のHEXファイル(giabalanai_3araht.hex)は[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip)からダウンロードできます（3araht はこれを使用しております）。  
+LEDが光ったり、[下記](https://github.com/3araht/giabalanai/blob/master/docs/build.md#layers)に示す、みなさまのご要望にお答えし増やしたレイヤーなどが盛り込まれた全部入り版のHEXファイル(giabalanai_3araht.hex)は[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip)からダウンロードできます（3araht はこれを使用しております）。  
 
 初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。  
 
@@ -322,6 +322,7 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 180°しても5列全てC-Systemの配列として使えます。  
 （想定してました。嘘です。結果オーライ大ショットです。）
 
+#### layers ####
 |                               操作                    |       変更先レイヤー（配列）  | 記号 |
 |------------------------------------------------------|----------------------------|-----|
 | エンコーダーボタン長押し＋左手側キーボード 1行1列目のD♭ | アコーディオン配列（C-System）＝初期設定| CSYSTEM |
