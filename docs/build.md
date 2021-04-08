@@ -233,7 +233,7 @@ https://github.com/qmk/qmk_toolbox
 
 MIDIを使ったキーボードなのに、VIA 機能を有効にし、REMAP で動的にキー配列を変更できるようになりました！！！  
 一部制限（※）はございますが、QWERTY のキーの配列を変えたい場合や、MIDI 機能の別のキー（サスティン、ピッチベンドなど）を割り当てたいけどコーディングは面倒、という方、お待たせしました！  
-VIA に対応したファームウェア（[giabalanai_via.hex](https://github.com/3araht/giabalanai/blob/master/giabalanai_via_hex.zip) ）を上で示したツールで書き込んでください(このファームウェアは gibaRInaix2 以外に対応。giabaRInaix2版は乞うご期待)。
+VIA に対応したファームウェア（[giabalanai_via.hex](https://github.com/3araht/giabalanai/blob/master/giabalanai_via_hex.zip) ）を上で示したツールで書き込んでください(このファームウェアは gibaRInaix2 以外に対応。giabaRInaix2版は[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_via_giabarinaix2_hex.zip))。
 [REMAP](https://remap-keys.app/) でキー配列を自由に変更することが可能です。  
 
 [REMAP](https://remap-keys.app/) で MIDI 関連のキーにも対応いただいた、Yoichiro さん、ありがとうございました。  
