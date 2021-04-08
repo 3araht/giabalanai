@@ -39,7 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    undef PRODUCT_ID
 #    define PRODUCT_ID   0xF4B2
 #    undef PRODUCT
-#    define PRODUCT giabaRInaix2
+#    define PRODUCT giabarinaix2
 #endif
 
 /*
