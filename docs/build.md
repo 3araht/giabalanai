@@ -345,6 +345,8 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 180°しても5列全てC-Systemの配列として使えます。  
 （想定してました。嘘です。結果オーライ大ショットです。）
 
+MIDI の Ch を分ける機能を追加しました。これにより、メロディーを弾く右手側のボタン、和音、ベース音それぞれに音源ソフト側で違う音色を載せたり、音量を個別に調整できるようになります。（GHEIM さん、ありがとうございました）。
+
 #### layers ####
 |                               操作                    |       変更先レイヤー（配列）  | 記号 |
 |------------------------------------------------------|----------------------------|-----|
@@ -357,6 +359,7 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 | エンコーダーボタン長押し＋左手側キーボード 1行12列目のF# | LED ON/OFF 切り替え（LED を実装している場合）| RGB_TOG |
 | エンコーダーボタン長押し＋左手側キーボード 2行1列目のD♭Major | QWERTY 配列（左手側キーボード）| DF_QWER |
 | エンコーダーボタン長押し＋左手側キーボード 2行2列目のA♭Major | Bass 音 単音 or 2和音 切り替え（初期設定： 2和音）| TGLBASS |
+| エンコーダーボタン長押し＋左手側キーボード 3行12列目のF#Minor | 全ボタン MIDI Ch1を使うか、Ch1:右手側、Ch2：和音、Ch3：ベースに分けるか | TGLMICH |
 |||
 |エンコーダーボタン長押し＋右手側キーボード 3行1列目のG# | 2オクターブ低く| MI_OCT_N2 |
 |エンコーダーボタン長押し＋右手側キーボード 3行2列目のB | 1オクターブ低く| MI_OCT_N1 |
@@ -374,7 +377,7 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210409_giabalanai_notes_layout_3araht.png">    
 
 エンコーダボタン長押ししたときの様子 Function(FN) Layer  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20201205_giabalanai_FN_layer.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210410_giabalanai_FN_layer.png">    
 
 QWERTY 配列  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_QWERTY_layout_comment.png">    
