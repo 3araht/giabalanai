@@ -367,6 +367,9 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 |エンコーダーボタン長押し＋右手側キーボード 3行4列目のF | 1オクターブ高く| MI_OCT_1 |
 |エンコーダーボタン長押し＋右手側キーボード 3行5列目のG# | 2オクターブ高く| MI_OCT_2 |
 |エンコーダーボタン長押し＋右手側キーボード 3行12列目のG♭ | 初期設定に戻す| EEP_RST |
+|エンコーダーボタン長押し＋右手側キーボード 5行10列目のC  | 右手側 2 dyad (root_note + 1octave 低い音)　| MELDYAL|
+|エンコーダーボタン長押し＋右手側キーボード 5行11列目のD# | 右手側 単音   （root_note）| MELODYS |
+|エンコーダーボタン長押し＋右手側キーボード 5行12列目のF* | 右手側 2 dyad (root_note + 1octave 高い音) | MELDYAH |
 | USB ケーブル抜き差し | 前回最後に使っていたアコーディオン配列 & Bass 音設定（単音 or 2和音） に戻ります。オクターブは基準音階に戻ります。|  |
 
 
@@ -374,7 +377,7 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 下の「エンコーダボタン長押ししたときの様子 Function(FN) Layer」をご覧ください。  
 
 音符のレイアウト一覧  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210409_giabalanai_notes_layout_3araht.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210412_giabalanai_notes_layout_3araht.png">    
 
 エンコーダボタン長押ししたときの様子 Function(FN) Layer  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210410_giabalanai_FN_layer.png">    
