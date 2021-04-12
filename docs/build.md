@@ -347,6 +347,8 @@ Daihukuさん & Tomotunsさん、ご要望いただきありがとうござい�
 
 MIDI の Ch を分ける機能を追加しました。これにより、メロディーを弾く右手側のボタン、和音、ベース音それぞれに音源ソフト側で違う音色を載せたり、音量を個別に調整できるようになります。（GHEIM さん、ありがとうございました）。
 
+メロディースイッチ機能追加しました（GHEIM さん、ありがとうございました）。
+
 #### layers ####
 |                               操作                    |       変更先レイヤー（配列）  | 記号 |
 |------------------------------------------------------|----------------------------|-----|
@@ -377,10 +379,10 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 下の「エンコーダボタン長押ししたときの様子 Function(FN) Layer」をご覧ください。  
 
 音符のレイアウト一覧  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210412_giabalanai_notes_layout_3araht.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210409_giabalanai_notes_layout_3araht.png">    
 
 エンコーダボタン長押ししたときの様子 Function(FN) Layer  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210410_giabalanai_FN_layer.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210412_giabalanai_FN_layer.png">    
 
 QWERTY 配列  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_QWERTY_layout_comment.png">    
