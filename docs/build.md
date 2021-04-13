@@ -292,7 +292,13 @@ make giabalanai:default
 4. サスティン問題回避  
 MIDIソフトによっては、同じ音を重ねて鳴らしたときにその音にUSBケーブルを抜き差しするまでサスティンがかかってしまう現象がありました。
 ~~対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。~~  
-2020/10/5 pull request が メインブランチにマージされました。最新のソフトを clone いただければOKです。
+2020/10/5 pull request が メインブランチにマージされました。最新のソフトを clone いただければOKです。  
+2021/04/13 残念ながら、2021/3/25 の process_midi.c の更新により、再びこの問題が復活しています。
+影響範囲は今では幸いにも クロマトーン配列 意外は大丈夫そうですが、クロマトーン配列を使用される方は、コンパイル前に以下のコマンドでエンバグ前のコードを引っ張り出してコンパイルしてください。
+```
+git checkout c66df16 quantum/process_keycode/process_midi.c
+```
+
 
 5. カスタマイズ！  
 ~~かなり Staggered なので、このキーボードでタイピングすることはあまり考えていないと思いますが、必要に応じてカスタマイズしてお使いください。~~  
@@ -369,6 +375,9 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 |エンコーダーボタン長押し＋右手側キーボード 3行4列目のF | 1オクターブ高く| MI_OCT_1 |
 |エンコーダーボタン長押し＋右手側キーボード 3行5列目のG# | 2オクターブ高く| MI_OCT_2 |
 |エンコーダーボタン長押し＋右手側キーボード 3行12列目のG♭ | 初期設定に戻す| EEP_RST |
+|エンコーダーボタン長押し＋右手側キーボード 4行10列目のA#  | ベロシティを下げる | MI_VELD|
+|エンコーダーボタン長押し＋右手側キーボード 4行11列目のC#  | ベロシティを上げる | MI_VELU|
+|エンコーダーボタン長押し＋右手側キーボード 5行9列目のA    | 下に示すボタンでユニゾンを有効にしたときのオクターブ音のベロシティを（基準音のベロシティ - 30）にする（デフォルト）か、基準音のベロシティと同じにするか切り替え | TGLUVEL|
 |エンコーダーボタン長押し＋右手側キーボード 5行10列目のC  | 右手側 2 dyad (root_note + 1octave 低い音)　| MELDYAL|
 |エンコーダーボタン長押し＋右手側キーボード 5行11列目のD# | 右手側 単音   （root_note）| MELODYS |
 |エンコーダーボタン長押し＋右手側キーボード 5行12列目のF# | 右手側 2 dyad (root_note + 1octave 高い音) | MELDYAH |
@@ -382,7 +391,7 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210409_giabalanai_notes_layout_3araht.png">    
 
 エンコーダボタン長押ししたときの様子 Function(FN) Layer  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210412_giabalanai_FN_layer.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20210413_giabalanai_FN_layer.png">    
 
 QWERTY 配列  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/master/pictures/20200927_giabalanai_QWERTY_layout_comment.png">    
@@ -459,8 +468,13 @@ QWERTY配列がデフォルトとなるようにしました（Haruさん、ご�
 
 #### お疲れ様でした。以上で giabalanai キーボードの完成です！
 
+
+## 11 ##
+## その他、変更点 ##
+- 2021/04/13 Velocity の初期値を、QMK の初期値である 127 から 117 （MI_VELD 1回分下げた値）に変更。これは、GHEIM さんから、一部の音源では 127 という値に特別な意味を持たせている場合がある、とのご意見をいただいて少し低めの値にしています（GHEIMさんご意見いただきありがとうございます）。
+
 ---
-##### 11 #####
+##### 12 #####
 ##### (アーカイブ) 過去のご案内 #####
 - 2020/09/08 r01 ビルドガイド ([こちら](https://github.com/3araht/giabalanai/blob/master/docs/build_r01.md))
 - 2020/09/20 サスティン問題回避方法 ([こちら](https://github.com/3araht/giabalanai/blob/master/docs/old/20200920.md))
