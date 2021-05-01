@@ -6,7 +6,6 @@
 
 # giabalanai キーボード
 giabalanai キーボードは蛇腹もレジスタスイッチも無いシンプルデザインのクロマチックボタンアコーディオンチックな MIDI キーボード （60 ベース + C-system 62 鍵 = 38 音） です。
-ロータリーエンコーダはシステム音量の調整に使用することが可能です。
 giabalanai は PC / Mac / iPad / iPhone で動作します。
 （Android でも動作するそうです。ELEKIT（イーケイジャパン）さん、情報シェアいただきありがとうございます。）
 
@@ -14,10 +13,11 @@ giabalanai は PC / Mac / iPad / iPhone で動作します。
 iPad や iPhone で giabalanai を使う場合には電源が必要ですので、必ず "[Lightning - USB 3カメラアダプタ](https://www.apple.com/jp/shop/product/MK0W2AM/A/)" をお使いください。
 "Lightning - USBカメラアダプタ" では電源供給ができません。
 
-USB-C タイプの iPad の場合は [USB-C Digital AV Multiportアダプタ](https://www.apple.com/jp/shop/product/MUF82ZA/A/)でしょうか~~（最新の iPad を所有していない為、動作未確認）~~。  
+USB-C タイプの iPad の場合は [USB-C Digital AV Multiportアダプタ](https://www.apple.com/jp/shop/product/MUF82ZA/A/)でしょうか ~~（最新の iPad を所有していない為、動作未確認）~~。  
 
 （2021/04/08 追記。USB-C タイプの iPad Air 4th Gen で試したところ、電源供給なしに問題なく動作させることができました。）
 
+ロータリーエンコーダは長押しでモード切り替えレイヤーへ。短押しでミュート切り替え、回転させるとシステム音量の調整に使用することが可能です。
 
 # 外観および使用例
 これらの動画 ([video1](https://github.com/3araht/giabalanai/blob/master/videos/giabalanai_keyboard.mp4), [video2](https://github.com/3araht/giabalanai/blob/master/videos/62buttons_38notes.mp4)) をご覧ください。
@@ -78,7 +78,6 @@ giabaLEnai は蛇腹に加えて左手側キーボード（LEft）がないこ�
 
 # giabalanai keyboard
 giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys = 38 notes) that doesn't have bellows nor register switches.
-A rotary encoder can be used for adjusting the system volume of your computer.
 giabalanai works with PC, Mac, iPad, and iPhone.
 (It works with Android as well. Thanks to @elekit_official for sharing the info.)
 
@@ -88,6 +87,9 @@ When using it with iPad or iPhone, it works when the below adapter is used with 
 It would work with [USB-C Digital AV Multiport Adapter](https://www.apple.com/shop/product/MUF82AM/A/) for the USB-C type iPads ~~( Since I don't have the latest iPad, it is not confirmed ).~~
 
 (2021/04/08 added. Confirmed with an iPad Air 4th Gen, which has USB-C port, it worked without the power supply.)
+
+A rotary encoder can be used to change the settings of chromatonemini by long-pressing the push-button of the encorder, mute/unmute by clicking, and adjusting the system volume of your computer by rotating the encoder.
+
 
 # How it looks & how it works
 Check these short videos ([video1](https://github.com/3araht/giabalanai/blob/master/videos/giabalanai_keyboard.mp4), [video2](https://github.com/3araht/giabalanai/blob/master/videos/62buttons_38notes.mp4)) to see how it looks & how it works.
