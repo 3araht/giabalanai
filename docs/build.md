@@ -44,6 +44,8 @@ rev.01 と rev.02 の一番の違いは Pro Micro の裏表の実装方法です
 |--------|-------|-------|
 |[ロータリーエンコーダ(ノブ付き)](https://yushakobo.jp/shop/pec12r-4222f-s0024/)|1個|右手側のキーボードに配置。押しボタン機能付きのものを選んでください（端子が上に2本（押しボタン用）、下に3本（エンコーダー用）生えてるやつ）。音量調整＋ミュート用のロータリーエンコーダを取り付ける場合は必要。長押し＋〇〇でレイヤー切り替えができますので、あったほうがよいと思います。|
 |LED（SK6812mini）|123個|2の「Backlight RGB LED」を使う場合に必要。左60個＋右62個＋エンコーダ用1個。難しい半田付けを伴うので、半田付け初心者の方はLEDなしで組み立てられることをお勧め致します。|
+|[キーボードアクリルプレート giabalanai スイッチプレート・左手・3mm](https://shop.yushakobo.jp/collections/services-auto/products/keyboard_acrylic_plate?variant=39732120518817)|1枚|キースイッチが3pinタイプのものをお使いの場合には、このプレートがあるとキースイッチのアライメントが簡単になります。|
+|[キーボードアクリルプレート giabalanai スイッチプレート・右手・3mm](https://shop.yushakobo.jp/collections/services-auto/products/keyboard_acrylic_plate?variant=39732118683809)|1枚|同上|
 
 ### オモテ面、裏面の実装物
 
