@@ -66,8 +66,8 @@ https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/
 
 ## その他
 #### giabalanai の名前の由来
-アコーディオンの蛇腹が無いところから来ています。  
-giabaLEnai は蛇腹に加えて左手側キーボード（LEft）がないこと、giabaRInai は右手側キーボード（RIght）がないこと、giabaRInaix2 は giabaRInai の2つ版、ということを示しています。
+アコーディオンの蛇腹が無いところから来ています（ジャバラナイ）。  
+giabaLEnai （ジャバレナイ）　は蛇腹に加えて左手側キーボード（LEft）がないこと、giabaRInai （ジャバリナイ）は右手側キーボード（RIght）がないこと、giabaRInaix2 は giabaRInai の2つ版、ということを示しています。
 
 一応先祖はイタリア出身という設定なので、イタリア語表記を使っています。
 そのため、 *jabaranai* ではなく giabalanai になっています。
