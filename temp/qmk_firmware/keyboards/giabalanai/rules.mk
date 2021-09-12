@@ -7,7 +7,7 @@ BOOTLOADER = caterina
 # Build Options
 #   change yes to no to disable
 #
-BOOTMAGIC_ENABLE = no       # Virtual DIP switch configuration
+BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = no        # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
@@ -18,10 +18,11 @@ SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
 NKRO_ENABLE = no            # USB Nkey Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
-BLUETOOTH_ENABLE = no       # Enable Bluetooth
 AUDIO_ENABLE = no           # Audio output
 MIDI_ENABLE = yes           # MIDI support
 ENCODER_ENABLE = yes        # encoder on mute button
 SPLIT_KEYBOARD = yes        # Enables split keyboard support
 # RGB_MATRIX_ENABLE is not suitable for giabalanai keyboard on the right side (there are dulpicate keys).
 RGB_MATRIX_ENABLE = no      # Use RGB matrix (Don't enable this when RGBLIGHT_ENABLE is used.)
+
+LTO_ENABLE = yes
