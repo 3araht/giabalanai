@@ -88,7 +88,7 @@ It would work with [USB-C Digital AV Multiport Adapter](https://www.apple.com/sh
 
 (2021/04/08 added. Confirmed with an iPad Air 4th Gen, which has USB-C port, it worked without the power supply.)
 
-A rotary encoder can be used to change the settings of chromatonemini by long-pressing the push-button of the encorder, mute/unmute by clicking, and adjusting the system volume of your computer by rotating the encoder.
+A rotary encoder can be used to change the settings of giabalanai by long-pressing the push-button of the encorder, mute/unmute by clicking, and adjusting the system volume of your computer by rotating the encoder.
 
 
 # How it looks & how it works
