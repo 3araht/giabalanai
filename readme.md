@@ -13,9 +13,7 @@ giabalanai は PC / Mac / iPad / iPhone で動作します。
 iPad や iPhone で giabalanai を使う場合には電源が必要ですので、必ず "[Lightning - USB 3カメラアダプタ](https://www.apple.com/jp/shop/product/MK0W2AM/A/)" をお使いください。
 "Lightning - USBカメラアダプタ" では電源供給ができません。
 
-USB-C タイプの iPad の場合は [USB-C Digital AV Multiportアダプタ](https://www.apple.com/jp/shop/product/MUF82ZA/A/)でしょうか ~~（最新の iPad を所有していない為、動作未確認）~~。  
-
-（2021/04/08 追記。USB-C タイプの iPad Air 4th Gen で試したところ、電源供給なしに問題なく動作させることができました。）
+なお、USB-C タイプの iPad Air 4th Gen で試したところ、電源供給なしに問題なく動作させることができました。
 
 ロータリーエンコーダは長押しでモード切り替えレイヤーへ。短押しでミュート切り替え、回転させるとシステム音量の調整に使用することが可能です。
 
