@@ -18,9 +18,9 @@ iPad や iPhone で giabalanai を使う場合には電源が必要ですので�
 ロータリーエンコーダは長押しでモード切り替えレイヤーへ。短押しでミュート切り替え、回転させるとシステム音量の調整に使用することが可能です。
 
 # 外観および使用例
-これらの動画 ([video1](https://github.com/3araht/giabalanai/blob/master/videos/giabalanai_keyboard.mp4), [video2](https://github.com/3araht/giabalanai/blob/master/videos/62buttons_38notes.mp4)) をご覧ください。
+これらの動画 ([video1](https://youtu.be/EOIqms4lRcw), [video2](https://youtu.be/-KNHJdDH71s)) をご覧ください。
 
-[こちら](https://github.com/3araht/giabalanai/blob/master/videos/giabala_dangi_ep.16_theme_song_feat.Mr.Seto.mp4) は蛇腹談義のジングル(https://www.youtube.com/watch?v=WSVRJk6kDiM) を弾こうとしている様子です。
+[こちら](https://youtu.be/hDas2LR00f4) は蛇腹談義のジングル(https://www.youtube.com/watch?v=WSVRJk6kDiM) を弾こうとしている様子です。
 
 [私の YouTube チャンネル](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) も併せてご覧ください。
 
@@ -90,9 +90,9 @@ A rotary encoder can be used to change the settings of giabalanai by long-pressi
 
 
 # How it looks & how it works
-Check these short videos ([video1](https://github.com/3araht/giabalanai/blob/master/videos/giabalanai_keyboard.mp4), [video2](https://github.com/3araht/giabalanai/blob/master/videos/62buttons_38notes.mp4)) to see how it looks & how it works.
+Check these short videos ([video1](https://youtu.be/EOIqms4lRcw), [video2](https://youtu.be/-KNHJdDH71s)) to see how it looks & how it works.  
 
-Here's another [video](https://github.com/3araht/giabalanai/blob/master/videos/giabala_dangi_ep.16_theme_song_feat.Mr.Seto.mp4), trying to play (pardon my poor playing skills) a theme song of Giabala-Dangi (https://www.youtube.com/watch?v=WSVRJk6kDiM).
+Here's another [video](https://youtu.be/hDas2LR00f4), trying to play (pardon my poor playing skills) a theme song of Giabala-Dangi (https://www.youtube.com/watch?v=WSVRJk6kDiM).
 
 Check [my YouTube channel](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) for more videos.
 
