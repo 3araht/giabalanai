@@ -331,7 +331,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
           XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
             XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
 
-    XXXXXXX,                                                                                                    XXXXXXX, XXXXXXX,
+    XXXXXXX,                                                                                                    RGB_RMOD, RGB_MOD,
       MI_OCT_N2, MI_OCT_N1, MI_OCT_0, MI_OCT_1, MI_OCT_2, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, EEP_RST,   _______,
     CSYSTEM, BSYSTEM,  CNTBASC,  CSYSALL,  CHRTONE,  CFLIP2B, XXXXXXX, XXXXXXX, XXXXXXX, MI_VELD, MI_VELU, RGB_MOD, RGB_TOG,
       XXXXXXX,   TGLBASS,   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, TGLUVEL, MELDYAL, MELODYS, MELDYAH
@@ -410,19 +410,37 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 
 #endif  //  RGBLIGHT_ENABLE
 
+void my_init(void){
+    //  Set octave to MI_OCT_0
+    midi_config.octave = MI_OCT_0 - MIDI_OCTAVE_MIN;
+    // avoid using 127 since it is used as a special number in some sound sources.
+    midi_config.velocity = MIDI_INITIAL_VELOCITY;
+}
+
 void eeconfig_init_user(void) {  // EEPROM is getting reset!
-  //  Reset Bass setting
-  user_config.raw = 0;  // default: dyad
-  eeconfig_update_user(user_config.raw);
+    midi_init();
+    my_init();
 
-  //  Reset the midi keyboard layout
-  set_single_persistent_default_layer(_C_SYSTEM_BASE);
+    // Used to set octave to MI_OCT_0
+    midi_base_ch = 0, midi_chord_ch = 0;  // By default, all use the same channel.
 
-  #ifdef RGB_MATRIX_ENABLE
-  rgb_matrix_sethsv(HSV_BLUE);
-  //  party mode (for LED soldering test.)
-  rgb_matrix_mode(RGB_MATRIX_RAINBOW_MOVING_CHEVRON);
-  #endif
+    // UNISON flags
+    melody_dyad_high = false;  //  true when +1 octave unison dyad is enabled.
+    melody_dyad_low  = false;  //  true when -1 octave unison dyad is enabled.
+    melody_unison_suppress  = true;  //  true: velocity of octave unison note is suppressd to UNISON_VELOCITY_RATIO
+
+    //  Reset Bass setting
+    user_config.raw = 0;  // default: dyad
+    eeconfig_update_user(user_config.raw);
+
+    //  Reset the midi keyboard layout
+    set_single_persistent_default_layer(_C_SYSTEM_BASS2ROW);
+
+#ifdef RGB_MATRIX_ENABLE
+    rgb_matrix_sethsv(HSV_BLUE);
+        //  party mode (for LED soldering test.)
+    rgb_matrix_mode(RGB_MATRIX_RAINBOW_MOVING_CHEVRON);
+#endif
 }
 
 #ifdef RGB_MATRIX_ENABLE
@@ -480,11 +498,7 @@ void rgb_matrix_indicators_user(void) {
 #endif
 
 void keyboard_post_init_user(void) {
-    //  Set octave to MI_OCT_0
-    midi_config.octave = MI_OCT_0 - MIDI_OCTAVE_MIN;
-
-    // avoid using 127 since it is used as a special number in some sound sources.
-    midi_config.velocity = MIDI_INITIAL_VELOCITY;
+    my_init();
 
     for (uint8_t i = 0; i < MY_CHORD_COUNT; i++) {
         chord_status[i] = MIDI_INVALID_NOTE;
