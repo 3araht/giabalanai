@@ -1,10 +1,10 @@
 # giabalanai
 
 <p align=center>
-<img width="700" alt="giabalanai_logo" src="https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_logo.png">
+<img width="700" alt="giabalanai_logo" src="https://github.com/3araht/giabalanai/blob/main/pictures/giabalanai_logo.png">
 </p>
 
-![giabalanai overview](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg)
+![giabalanai overview](https://github.com/3araht/giabalanai/blob/main/pictures/giabalanai_overview.jpg)
 
 
 *A short description of the keyboard/project*

@@ -1,5 +1,5 @@
 # giabalanai Build Guide  〜 rev.01 用 〜
-*rev.02用のビルドガイドは[こちら](https://github.com/3araht/giabalanai/blob/master/docs/build.md)*
+*rev.02用のビルドガイドは[こちら](https://github.com/3araht/giabalanai/blob/main/docs/build.md)*
 
 **一度すべて読んでから組み立てることをお勧めします。**
 
@@ -47,16 +47,16 @@
 基板の裏面には、ダイオードの実装場所やキーボード名が印字されています。
 
 左手側 オモテ面  
-<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/master/pictures/left_front_pcb.jpg">
+<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/main/pictures/left_front_pcb.jpg">
 
 左手側 裏面  
-<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/master/pictures/left_rear_pcb.jpg">
+<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/main/pictures/left_rear_pcb.jpg">
 
 右手側 オモテ面  
-<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/master/pictures/right_front_pcb.jpg">
+<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/main/pictures/right_front_pcb.jpg">
 
 右手側 裏面  
-<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/master/pictures/right_rear_pcb.jpg">
+<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/main/pictures/right_rear_pcb.jpg">
 
 
 #### 裏面には次の部品を実装します
@@ -80,58 +80,58 @@
 
 ダイオードには向きがあります。また、図のように足を曲げておきます。
 ダイオードをつまんで両端の足を同時に曲げると図の右のように比較的ちょうどいい形になります。  
-<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_bend.jpg">
+<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/main/pictures/diode_bend.jpg">
 
 キースイッチと干渉しないように、ダイオードは基板の裏面に実装します。
 ダイオードの黒い線のほうが四角いフットプリント（Kと印字されている方, K はKathode（独）の頭文字らしいですが、黒（Kuro) の K で。）に合うように配置します。  
-<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_align1.jpg">
+<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/main/pictures/diode_align1.jpg">
 
 足を曲げて基板に這わせてダイオードを仮止めします。  
-<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_flatten.jpg">
+<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/main/pictures/diode_flatten.jpg">
 
 オモテ面から見た図  
-<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_flatten2.jpg">
+<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/main/pictures/diode_flatten2.jpg">
 
 オモテ面から半田付けします。  
-<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_soldered.jpg">
+<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/main/pictures/diode_soldered.jpg">
 
 足をニッパでカットします。  
-<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/master/pictures/diode_feet_cut.jpg">
+<img width="700" alt="diode" src="https://github.com/3araht/giabalanai/blob/main/pictures/diode_feet_cut.jpg">
 
 
 ## 2 Backlight RGB LEDの取付け[Optional]
 バックライト用のチップLED(SK6812mini)はPCBの裏面から実装します。向きに注意して穴に入れてください。
 LEDの裏から見て、一番大きいパッド（5V）とシルク（印字の事）の○が同じ位置になります。
 LEDはデータを直列に伝送する都合上、最上行はオモテ面からみて左から右、2行目は右から左、3行目はまた左から右に…と並んでいます（右手側の場合）。  
-<img width="700" alt="RGB_LED" src="https://github.com/3araht/giabalanai/blob/master/pictures/LED_serial.jpg">
+<img width="700" alt="RGB_LED" src="https://github.com/3araht/giabalanai/blob/main/pictures/LED_serial.jpg">
 
 このため、偶数行と奇数行のLEDの向きが違うので十分ご注意ください。
 半田付けが軌道に乗った矢先に向きを間違えがちです。
 その時のショックと言ったら。。。（経験者談）。  
-<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/master/pictures/SK6812mini_alignment.jpg">
+<img width="700" alt="RGB" src="https://github.com/3araht/giabalanai/blob/main/pictures/SK6812mini_alignment.jpg">
 
 温調半田ごてを使い、約220℃で半田付けします。温度が高いとLEDが壊れますので注意してください。
 温調できない半田ごてではすぐに焦げます＆壊れます（これも経験者談）。
 
 こてを斜めにして接触面積を広げるとやり易いという事がわかりました。  
-<img width="700" alt="RGB_LED" src="https://github.com/3araht/giabalanai/blob/master/pictures/LED_solder_iron.jpg">
+<img width="700" alt="RGB_LED" src="https://github.com/3araht/giabalanai/blob/main/pictures/LED_solder_iron.jpg">
 
 LEDは、右手側 Pro Micro の1番ピン（Tx）から右手側基板の左上のLEDから直列繋ぎにデータを伝達し、右手側基板上の63個のLEDを通過したデータはTRRSケーブルを通じて左手側基板上面からみて右上のLEDから直列繋ぎにデータを伝達します。
 
 右手側基板および左手側基板の下図の位置を半田でジャンパします。
 
 1、右手側基板の2箇所と、  
-<img width="700" alt="Jumper" src="https://github.com/3araht/giabalanai/blob/master/pictures/LED_right_jumper.jpg">
+<img width="700" alt="Jumper" src="https://github.com/3araht/giabalanai/blob/main/pictures/LED_right_jumper.jpg">
 
 2、左手側基板のここ。  
-<img width="700" alt="Jumper" src="https://github.com/3araht/giabalanai/blob/master/pictures/LED_left_jumper.jpg">
+<img width="700" alt="Jumper" src="https://github.com/3araht/giabalanai/blob/main/pictures/LED_left_jumper.jpg">
 
 LEDの情報は直列に伝送されますので、接続が途切れてしまうと正しくLEDが光らなくなります。
 
 
 ## 3 リセットスイッチとTRRSジャックの取付け
 左右の基板共、白い四角い枠のシルクに沿って裏側に取り付けます。浮いたり曲がった状態で実装しないようにマスキングテープなどで予め仮止めしてから半田付けするとミスが少なくなります。  
-<img width="700" alt="S_T" src="https://github.com/3araht/giabalanai/blob/master/pictures/TRRS_ResetSW.jpg">
+<img width="700" alt="S_T" src="https://github.com/3araht/giabalanai/blob/main/pictures/TRRS_ResetSW.jpg">
 
 ## 4 Pro Micro 用ピンヘッダの取付け
 **※コンスルー（スプリングピンヘッダ）を使う場合はこの工程は不要です。**
@@ -145,11 +145,11 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 
 
 ※スプリングピンヘッダを使用する場合は6と8の工程を先に行い、動作確認(下図のようにキースイッチ部をピンセットなどでショートさせ、MIDI機器を認識するソフトで音が出るか確かめる事)をすると失敗する可能性が減ります。  
-<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_test.jpg">
+<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/main/pictures/Keysw_test.jpg">
 
 キースイッチをオモテ側からしっかり奥まで差し込みます。このとき、端子が曲がっていると実装穴に端子が入らないので注意してください。1行ずつキースイッチをしっかり差し込んでから半田付けしていった方が差し込み不良は減らせると思います。      
-<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_front.jpg">  
-<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Keysw_rear.jpg">
+<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/main/pictures/Keysw_front.jpg">  
+<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/main/pictures/Keysw_rear.jpg">
 
 
 
@@ -160,42 +160,42 @@ LEDの情報は直列に伝送されますので、接続が途切れてしま�
 取り付けたときに Pro Micro の浮きがないか確認し、浮きがあれば Pro Micro下のスイッチの足を少しカットします。
 
 ※コンスルーを使う場合は Pro Micro 側のみを半田付けします。  
-<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_through.jpg">
+<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/main/pictures/Con_through.jpg">
 
 コンスルーを斜めに半田付けしないように、基板の**裏面から**コンスルーを差しておいてピンが垂直になるようにします。
 下図のように、Pro Micro 側(側面に空いている小さな穴が近い方)を上にして基板にコンスルーを差し込みます。
 このとき、図のように、コンスルーの向きを揃えておきます（＝2つとも側面の小さな穴が空いている方向を揃えます）。  
-<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_through_onPCB.jpg">
+<img width="700" alt="switch" src="https://github.com/3araht/giabalanai/blob/main/pictures/Con_through_onPCB.jpg">
 
 *Pro Micro の上下の向きに注意。Pro Micro の TxD ピンが基板の TxD に刺さるように向きが合っているか確認します。  
-<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/Con_throughSoldered2ProMicro.jpg">  
-<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/master/pictures/ProMicro_TxD_r01.jpg">
+<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/main/pictures/Con_throughSoldered2ProMicro.jpg">  
+<img width="700" alt="CT" src="https://github.com/3araht/giabalanai/blob/main/pictures/ProMicro_TxD_r01.jpg">
 
 コンスルーを基板の裏面から差し、TxD の位置を見て向きが揃っていることを確認したら、コンスルーと Pro Micro を半田付けします。
 **一度半田付けしたコンスルーを外すのは困難を極めますので、十分注意してください。**
 
 ## 7 ボトムプレート、スペーサーの組み立て
 ボトムプレートの、図の赤丸の位置 10 箇所に M2 のねじで スペーサーを取り付けます。  
-<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/BottomPlate.jpg">  
-<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/SpacerOnBottomPlate.jpg">
+<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/main/pictures/BottomPlate.jpg">  
+<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/main/pictures/SpacerOnBottomPlate.jpg">
 
 キースイッチの間にネジをセットするにはピンセットを使います。  
-<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/ScrewSettingWIthTweezers.jpg">
+<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/main/pictures/ScrewSettingWIthTweezers.jpg">
 
 ネジ止めは、たすき掛けで均一に締めつけますが、強く締めつけすぎないようにします。
 
 （左手側は、左上と右下の二箇所がキースイッチと干渉してしまって上からねじ止めができませんでした。。。すみません。）  
-<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/master/pictures/leftUpperLeftCorner.jpg">
+<img width="700" alt="spacer" src="https://github.com/3araht/giabalanai/blob/main/pictures/leftUpperLeftCorner.jpg">
 
 緑丸の位置にクッションシールを取り付けます。  
-<img width="700" alt="gom" src="https://github.com/3araht/giabalanai/blob/master/pictures/Cushon.jpg">
+<img width="700" alt="gom" src="https://github.com/3araht/giabalanai/blob/main/pictures/Cushon.jpg">
 
 ## 8 Firmwareの書き込み
 左右の基板の Pro Micro に同じHEXファイルを書き込みます。
 
 ### 8.1 コーディングはちょっと自信がない／とりあえず基本機能で動作させたい、という方 ###
 
-コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht.hex)からダウンロードできます。
+コンパイル済のHEXファイルは[こちら](https://github.com/3araht/giabalanai/blob/main/giabalanai_3araht.hex)からダウンロードできます。
 **サスティン問題対策版です♪**
 
 初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。  
@@ -213,7 +213,7 @@ https://docs.qmk.fm/#/getting_started_build_tools
 giabalanai の Firmware は以下にUPされるよう push request 中です。
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai
 
-それまで、暫定的に[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードをお使いください。
+それまで、暫定的に[こちら](https://github.com/3araht/giabalanai/blob/main/temp/qmk_firmware/keyboards/giabalanai)のソースコードをお使いください。
 
 #### 8.2.1 暫定的にUPしたソースの使い方 ####
 1. まず、qmk_firmware を clone してきます。
@@ -225,14 +225,14 @@ https://github.com/qmk/qmk_firmware
 ./util/new_keyboard.sh
 ```
 下図の赤い文字にしたがって進めて行きます。こうすると、正式な手続きでgiabalanai キーボードのフォルダが qmk_firmware/keyboards に出来上がります。  
-<img width="700" alt="new_keyboard" src="https://github.com/3araht/giabalanai/blob/master/pictures/new_keyboard.png">  
+<img width="700" alt="new_keyboard" src="https://github.com/3araht/giabalanai/blob/main/pictures/new_keyboard.png">  
 また、これにより、qmk_firmware フォルダで  
 ```
 make giabalanai:default
 ```
 などのコンパイルも通るようになります。
 
-3. 暫定的に UP している[こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai)のソースコードを qmk_firmware/keyboards/giabalanai に上書き保存します。
+3. 暫定的に UP している[こちら](https://github.com/3araht/giabalanai/blob/main/temp/qmk_firmware/keyboards/giabalanai)のソースコードを qmk_firmware/keyboards/giabalanai に上書き保存します。
 
 4. サスティン問題回避  
 MIDIソフトによっては、同じ音を重ねて鳴らしたときにその音にUSBケーブルを抜き差しするまでサスティンがかかってしまう現象がありました。

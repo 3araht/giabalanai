@@ -1,8 +1,8 @@
 <p align=center>
-<img width="700" alt="giabalanai_logo" src="https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_logo.png">
+<img width="700" alt="giabalanai_logo" src="https://github.com/3araht/giabalanai/blob/main/pictures/giabalanai_logo.png">
 </p>
 
-![giabalanai overview](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_overview.jpg)
+![giabalanai overview](https://github.com/3araht/giabalanai/blob/main/pictures/giabalanai_overview.jpg)
 
 # giabalanai キーボード
 giabalanai キーボードは蛇腹もレジスタスイッチも無いシンプルデザインのクロマチックボタンアコーディオンチックな MIDI キーボード （60 ベース + C-system 62 鍵 = 38 音） です。
@@ -48,13 +48,13 @@ BOOTH では、 giabalanai、 giabaLEnai、giabaRInai、giabaRInaix2 がお求�
 giabalanai は QMK firmware を使っています。Push request が通れば下記からダウンロードできると思います:
 [QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai)。
 
-暫定的に [こちら](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai) からベータ版をダウンロード下さい。
+暫定的に [こちら](https://github.com/3araht/giabalanai/blob/main/temp/qmk_firmware/keyboards/giabalanai) からベータ版をダウンロード下さい。
 
-もしくは、こちらのコンパイル済の [hex file](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip) をお使いください （RGB_LIGHTING 有効）.
+もしくは、こちらのコンパイル済の [hex file](https://github.com/3araht/giabalanai/blob/main/giabalanai_3araht_hex.zip) をお使いください （RGB_LIGHTING 有効）.
 
 # ビルドガイド
 
-[日本語ビルドガイド](https://github.com/3araht/giabalanai/blob/master/docs/build.md)
+[日本語ビルドガイド](https://github.com/3araht/giabalanai/blob/main/docs/build.md)
 
 # コンタクト先:
 Twitter と YouTube はじめました。  
@@ -72,7 +72,7 @@ giabaLEnai （ジャバレナイ）　は蛇腹に加えて左手側キーボー
 <!--- not jabaranai but giabalanai ジャバラナイの名前の由来 -->
 
 
-![giabalanai lighting](https://github.com/3araht/giabalanai/blob/master/pictures/giabalanai_lighting2.jpg)
+![giabalanai lighting](https://github.com/3araht/giabalanai/blob/main/pictures/giabalanai_lighting2.jpg)
 
 # giabalanai keyboard
 giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys = 38 notes) that doesn't have bellows nor register switches.
@@ -119,14 +119,14 @@ All 4 models are available from [BOOTH](https://3araht.booth.pm/).
 The giabalanai uses QMK for its firmware. The codes for it will be available here as the push request is accepted:
 [QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai).
 
-Temporarily, please download codes from [here](https://github.com/3araht/giabalanai/blob/master/temp/qmk_firmware/keyboards/giabalanai) as a "beta" version.
+Temporarily, please download codes from [here](https://github.com/3araht/giabalanai/blob/main/temp/qmk_firmware/keyboards/giabalanai) as a "beta" version.
 
-Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/master/giabalanai_3araht_hex.zip) for your convenience (RGB_LIGHTING enabled).
+Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/main/giabalanai_3araht_hex.zip) for your convenience (RGB_LIGHTING enabled).
 
 # Build Guide
 
-[Japanese Build Guide](https://github.com/3araht/giabalanai/blob/master/docs/build.md)  
-Try [Google Translated guide](https://translate.google.com/translate?sl=ja&tl=en&u=https://github.com/3araht/giabalanai/blob/master/docs/build.md) for your language preferences. Trust me, it works quite well, more than expected.
+[Japanese Build Guide](https://github.com/3araht/giabalanai/blob/main/docs/build.md)  
+Try [Google Translated guide](https://translate.google.com/translate?sl=ja&tl=en&u=https://github.com/3araht/giabalanai/blob/main/docs/build.md) for your language preferences. Trust me, it works quite well, more than expected.
 
 
 # Contact
