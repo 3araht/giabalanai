@@ -5,6 +5,9 @@
 ![giabalanai overview](https://github.com/3araht/giabalanai/blob/main/pictures/giabalanai_overview.jpg)
 
 # giabalanai キーボード
+
+✳︎ こちらは Pro Micro 版の giabalanai シリーズについてのページです。 [Raspberry Pi Pico 版の giabalanaipico シリーズにはこちら](https://github.com/3araht/giabalanaipico)を参照ください。
+
 giabalanai キーボードは蛇腹もレジスタスイッチも無いシンプルデザインのクロマチックボタンアコーディオンチックな MIDI キーボード （60 ベース + C-system 62 鍵 = 38 音） です。
 giabalanai は PC / Mac / iPad / iPhone で動作します。
 （Android でも動作するそうです。ELEKIT（イーケイジャパン）さん、情報シェアいただきありがとうございます。）
@@ -26,7 +29,7 @@ iPad や iPhone で giabalanai を使う場合には電源が必要ですので�
 
 # キーボードキット
 ## ラインナップ
-全部で4通りのバリエーションがございます。
+全部で7通りのバリエーションがございます。
 
 |名前               | 説明                                                 |
 |------------------|------------------------------------------------------|
@@ -34,14 +37,16 @@ iPad や iPhone で giabalanai を使う場合には電源が必要ですので�
 | giabaLEnai       | giabalanai の右手側だけ版|
 | giabaRInaix2     | giabalanai の左手側のキーボードを2つ連結したモデル。ロータリーエンコーダーはありませんが、120キー全てが独立しているので自由にキー配置を変更できます（ソフト変更必要）。バンドネオン奏者の方、クロマトーン を演奏される方にはお勧め。|
 | giabaRInai       | giabalanai の左手側だけ版。giabaLEnai 持っているけどやっぱり左手側も欲しいという方向け。|
+| giabalanaipico   | giabalanai の Raspberry Pi Pico 版。右手側鍵盤が全て独立しました。また、レジスタスイッチも使えるようになりました。|
+| giabaLEnaipico   | giabalanaipico の右手側だけ版|
+| giabaRInaipico   | giabalanaipico の左手側だけ版。giabaLEnaipico 持っているけどやっぱり左手側も欲しいという方向け。|
 
 giabalanai キーボードキットは遊舎工房さん、BOOTHでお求めいただけます。  
-[遊舎工房 販売ページへのリンクはこちら](https://yushakobo.jp/shop/consign_giabalanai/)。  
+[遊舎工房 販売ページへのリンクはこちら](https://yushakobo.jp/)。  
 遊舎工房さんでは、 [giabalanai](https://yushakobo.jp/shop/consign_giabalanai/) 、 [giabaLEnai](https://yushakobo.jp/shop/consign_giabalenai/) がお求めいただけます。
 
-
 [BOOTH 販売ページへのリンクはこちら](https://3araht.booth.pm/)。
-BOOTH では、 giabalanai、 giabaLEnai、giabaRInai、giabaRInaix2 がお求めいただけます。
+BOOTH では、全てお求めいただけます。
 
 # ファームウェア
 
@@ -75,6 +80,9 @@ giabaLEnai （ジャバレナイ）　は蛇腹に加えて左手側キーボー
 ![giabalanai lighting](https://github.com/3araht/giabalanai/blob/main/pictures/giabalanai_lighting2.jpg)
 
 # giabalanai keyboard
+
+✳︎ This page is about giabalanai series, the Pro Micro version. For [giabalanaipico series, the Raspberry Pi Pico version, check here.](https://github.com/3araht/giabalanaipico)
+
 giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keyboard (60 bass + C-system 62 keys = 38 notes) that doesn't have bellows nor register switches.
 giabalanai works with PC, Mac, iPad, and iPhone.
 (It works with Android as well. Thanks to @elekit_official for sharing the info.)
@@ -98,7 +106,7 @@ Check [my YouTube channel](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl
 
 # Keyboard kit
 ## Lineup
-There are total 4 types:
+There are total 7 types:
 
 |Name               | Notes                                               |
 |------------------|------------------------------------------------------|
@@ -106,13 +114,16 @@ There are total 4 types:
 | giabaLEnai       | The right-hand side only version of giabalanai |
 | giabaRInaix2     | Two pcs of the left-hand side of giabalanai. Rotary Encoder is not applicable. All 120 keys are isolated, so there is more flexibility for customizing the key layout (software modification is required). Bandoneon and Chromatone players might be interested in this model.|
 | giabaRInai       | The left-hand side only version of giabalanai. For our friends who have giabaLEnai but want to have the left-hand side later on.|
+| giabalanaipico   | Raspberry Pi Pico version of giabalanai. All keys on the right side keyboard are now independent. Register switches are now available. |
+| giabaLEnaipico   |  The right-hand side only version of giabalanaipico |
+| giabaRInaipico   | The left-hand side only version of giabalanaipico. For our friends who have giabaLEnaipico but want to have the left-hand side later on.|
 
 The keyboard kit is available from [Yushakobo](https://yushakobo.jp/shop/consign_giabalanai/), or from [BOOTH](https://3araht.booth.pm/).  
 
 Click [here](https://www.tenso.com/en/static/lp_shop_booth) for BOOTH overseas shipping!
 
 Both [giabalanai](https://yushakobo.jp/shop/consign_giabalanai/) and [giabaLEnai](https://yushakobo.jp/shop/consign_giabalenai/)  are available from Yushakobo.
-All 4 models are available from [BOOTH](https://3araht.booth.pm/).
+All the models are available from [BOOTH](https://3araht.booth.pm/).
 
 # Firmware
 
