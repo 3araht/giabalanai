@@ -396,7 +396,7 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/main/pictures/20220220_giabalanai_notes_layout_3araht.png">    
 
 エンコーダボタン長押ししたときの様子 Function(FN) Layer  
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/main/pictures/20220220_giabalanai_FN_layer.png">    
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/main/pictures/20220807_giabalanai_FN_layer.png">    
 
 QWERTY 配列  
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/main/pictures/20200927_giabalanai_QWERTY_layout_comment.png">    
