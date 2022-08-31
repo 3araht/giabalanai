@@ -38,8 +38,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS_RIGHT { D1, D0, D4, C6, D7, E6 }
 #define MATRIX_COL_PINS_RIGHT { F4, F5, F6, F7, B1, B3, B2, C7, B7, F1 }
 
-#define UNUSED_PINS
-
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
@@ -280,16 +278,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * Encoder options
  */
 #ifdef ENCODER_ENABLE
-#   define ENCODERS_PAD_A { C7 }  // dummy
-#   define ENCODERS_PAD_B { B7 }  // dummy
+#   define ENCODERS_PAD_A { }
+#   define ENCODERS_PAD_B { }
+#   define ENCODER_RESOLUTIONS { }
 #   define ENCODERS_PAD_A_RIGHT { B4 }
 #   define ENCODERS_PAD_B_RIGHT { B6 }
-#   define ENCODER_RESOLUTION 4
+#   define ENCODER_RESOLUTIONS_RIGHT { 4 }
 #   define TAP_CODE_DELAY 10
 
-#   define ENCODERS 2
-#   define ENCODERS_CW_KEY  { {9, 7}, {9, 6} }
-#   define ENCODERS_CCW_KEY { {8, 7}, {8, 6} }
+#   define ENCODERS 1
+#   define ENCODERS_CW_KEY  { {9, 6} }
+#   define ENCODERS_CCW_KEY { {8, 6} }
 #endif  // ENCODER_ENABLE
 
 /* 2021/01/22 added to shrink firmware size */
