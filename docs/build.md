@@ -244,8 +244,8 @@ https://github.com/qmk/qmk_toolbox
 これらの使い方は サリチル酸さんの[記事](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)がとても参考になります(サリチル酸さん、どうもありがとうございます)。
 
 #### 8.1.2 ####
-#### （giabalanai, giabaLEnai, giabaRInai) 全部入り版使った後で、LED光らなくていいし、レイヤーたくさんいらないけど、REMAP でキー配列をちょっと変更したい、という方 か、####
-#### giabaRInaix2 をお使いの方 ####
+
+#### （giabalanai, giabaLEnai, giabaRInai) 全部入り版使った後で、LED光らなくていいし、レイヤーたくさんいらないけど、REMAP でキー配列をちょっと変更したい、という方 か、giabaRInaix2 をお使いの方
 
 MIDIを使ったキーボードなのに、VIA 機能を有効にし、REMAP で動的にキー配列を変更できるようになりました！！！<br>
 一部制限（※）はございますが、QWERTY のキーの配列を変えたい場合や、MIDI 機能の別のキー（サスティン、ピッチベンドなど）を割り当てたいけどコーディングは面倒、という方、お待たせしました！<br>
@@ -261,37 +261,20 @@ VIA に対応したファームウェア（[giabalanai_via.hex](https://github.c
 
 
 ### 8.2 ###
-### コーディングに慣れている方、チャレンジされる方 ###
+### コーディングに慣れている方、チャレンジされる方
 
 以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。<br>
 https://docs.qmk.fm/#/getting_started_build_tools
 
-giabalanai の Firmware は以下にUPされるよう push request 中です(まだリンク切れ状態です)。<br>
+giabalanai の Firmware は以下にあります。<br>
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai
 
-それまで、暫定的に[こちら](https://github.com/3araht/giabalanai/blob/main/temp/qmk_firmware/keyboards/giabalanai)のソースコードをお使いください。
-
 #### 8.2.1 ####
-#### 暫定的にUPしたソースの使い方 ####
+#### ソースの使い方
 1. まず、qmk_firmware を clone してきます。
 https://github.com/qmk/qmk_firmware
 
-2. qmk_firmware/util/new_keyboard.sh を使って giabalanai キーボード を新規登録します。以下のコマンドでスクリプトを実行します。<br>
-このコマンドは qmk_firmware フォルダで実行します。<br>
-```
-./util/new_keyboard.sh
-```
-下図の赤い文字にしたがって進めて行きます。こうすると、正式な手続きでgiabalanai キーボードのフォルダが qmk_firmware/keyboards に出来上がります。<br>
-<img width="700" alt="new_keyboard" src="https://github.com/3araht/giabalanai/blob/main/pictures/new_keyboard.png"><br>
-また、これにより、qmk_firmware フォルダで<br>
-```
-make giabalanai:default
-```
-などのコンパイルも通るようになります。
-
-3. 暫定的に UP している[こちら](https://github.com/3araht/giabalanai/blob/main/temp/qmk_firmware/keyboards/giabalanai)のソースコードを qmk_firmware/keyboards/giabalanai に上書き保存します。
-
-4. サスティン問題回避<br>
+2. サスティン問題回避<br>
 MIDIソフトによっては、同じ音を重ねて鳴らしたときにその音にUSBケーブルを抜き差しするまでサスティンがかかってしまう現象がありました。
 ~~対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。~~<br>
 2020/10/5 pull request が メインブランチにマージされました。最新のソフトを clone いただければOKです。<br>

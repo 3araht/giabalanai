@@ -41,8 +41,8 @@ iPad や iPhone で giabalanai を使う場合には電源が必要ですので�
 | giabaLEnaipico   | giabalanaipico の右手側だけ版|
 | giabaRInaipico   | giabalanaipico の左手側だけ版。giabaLEnaipico 持っているけどやっぱり左手側も欲しいという方向け。|
 
-giabalanai キーボードキットは遊舎工房さん、BOOTHでお求めいただけます。  
-[遊舎工房 販売ページへのリンクはこちら](https://yushakobo.jp/)。  
+giabalanai キーボードキットは遊舎工房さん、BOOTHでお求めいただけます。
+[遊舎工房 販売ページへのリンクはこちら](https://yushakobo.jp/)。
 遊舎工房さんでは、 [giabalanai](https://yushakobo.jp/shop/consign_giabalanai/) 、 [giabaLEnai](https://yushakobo.jp/shop/consign_giabalenai/) がお求めいただけます。
 
 [BOOTH 販売ページへのリンクはこちら](https://3araht.booth.pm/)。
@@ -50,10 +50,8 @@ BOOTH では、全てお求めいただけます。
 
 # ファームウェア
 
-giabalanai は QMK firmware を使っています。Push request が通れば下記からダウンロードできると思います:
+giabalanai は QMK firmware を使っています。下記からダウンロードできます:
 [QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai)。
-
-暫定的に [こちら](https://github.com/3araht/giabalanai/blob/main/temp/qmk_firmware/keyboards/giabalanai) からベータ版をダウンロード下さい。
 
 もしくは、こちらのコンパイル済の [hex file](https://github.com/3araht/giabalanai/blob/main/giabalanai_3araht_hex.zip) をお使いください （RGB_LIGHTING 有効）.
 
@@ -62,14 +60,14 @@ giabalanai は QMK firmware を使っています。Push request が通れば下
 [日本語ビルドガイド](https://github.com/3araht/giabalanai/blob/main/docs/build.md)
 
 # コンタクト先:
-Twitter と YouTube はじめました。  
-http://twitter.com/3araht  
+Twitter と YouTube はじめました。
+http://twitter.com/3araht
 https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/
 
 
 ## その他
 #### giabalanai の名前の由来
-アコーディオンの蛇腹が無いところから来ています（ジャバラナイ）。  
+アコーディオンの蛇腹が無いところから来ています（ジャバラナイ）。
 giabaLEnai （ジャバレナイ）　は蛇腹に加えて左手側キーボード（LEft）がないこと、giabaRInai （ジャバリナイ）は右手側キーボード（RIght）がないこと、giabaRInaix2 は giabaRInai の2つ版、ということを示しています。
 
 一応先祖はイタリア出身という設定なので、イタリア語表記を使っています。
@@ -87,7 +85,7 @@ giabalanai keyboard is a simple-design Chromatic Button Accordion-ish MIDI keybo
 giabalanai works with PC, Mac, iPad, and iPhone.
 (It works with Android as well. Thanks to @elekit_official for sharing the info.)
 
-When using it with iPad or iPhone, it works when the below adapter is used with a power supply. The power supply is necessary to use giabalanai on iPad and iPhone. Make sure to use "[Lightning to USB 3 Camera Adapter](https://www.apple.com/shop/product/MK0W2AM/A/)", not "Lightning to USB Camera Adapter."  
+When using it with iPad or iPhone, it works when the below adapter is used with a power supply. The power supply is necessary to use giabalanai on iPad and iPhone. Make sure to use "[Lightning to USB 3 Camera Adapter](https://www.apple.com/shop/product/MK0W2AM/A/)", not "Lightning to USB Camera Adapter."
 
 
 It would work with [USB-C Digital AV Multiport Adapter](https://www.apple.com/shop/product/MUF82AM/A/) for the USB-C type iPads ~~( Since I don't have the latest iPad, it is not confirmed ).~~
@@ -98,7 +96,7 @@ A rotary encoder can be used to change the settings of giabalanai by long-pressi
 
 
 # How it looks & how it works
-Check these short videos ([video1](https://youtu.be/EOIqms4lRcw), [video2](https://youtu.be/-KNHJdDH71s)) to see how it looks & how it works.  
+Check these short videos ([video1](https://youtu.be/EOIqms4lRcw), [video2](https://youtu.be/-KNHJdDH71s)) to see how it looks & how it works.
 
 Here's another [video](https://youtu.be/hDas2LR00f4), trying to play (pardon my poor playing skills) a theme song of Giabala-Dangi (https://www.youtube.com/watch?v=WSVRJk6kDiM).
 
@@ -118,7 +116,7 @@ There are total 7 types:
 | giabaLEnaipico   |  The right-hand side only version of giabalanaipico |
 | giabaRInaipico   | The left-hand side only version of giabalanaipico. For our friends who have giabaLEnaipico but want to have the left-hand side later on.|
 
-The keyboard kit is available from [Yushakobo](https://yushakobo.jp/shop/consign_giabalanai/), or from [BOOTH](https://3araht.booth.pm/).  
+The keyboard kit is available from [Yushakobo](https://yushakobo.jp/shop/consign_giabalanai/), or from [BOOTH](https://3araht.booth.pm/).
 
 Click [here](https://www.tenso.com/en/static/lp_shop_booth) for BOOTH overseas shipping!
 
@@ -127,28 +125,26 @@ All the models are available from [BOOTH](https://3araht.booth.pm/).
 
 # Firmware
 
-The giabalanai uses QMK for its firmware. The codes for it will be available here as the push request is accepted:
+The giabalanai uses QMK for its firmware. The codes for it is available here:
 [QMK - giabalanai directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/giabalanai).
-
-Temporarily, please download codes from [here](https://github.com/3araht/giabalanai/blob/main/temp/qmk_firmware/keyboards/giabalanai) as a "beta" version.
 
 Or, use this pre-compiled [hex file](https://github.com/3araht/giabalanai/blob/main/giabalanai_3araht_hex.zip) for your convenience (RGB_LIGHTING enabled).
 
 # Build Guide
 
-[Japanese Build Guide](https://github.com/3araht/giabalanai/blob/main/docs/build.md)  
+[Japanese Build Guide](https://github.com/3araht/giabalanai/blob/main/docs/build.md)
 Try [Google Translated guide](https://translate.google.com/translate?sl=ja&tl=en&u=https://github.com/3araht/giabalanai/blob/main/docs/build.md) for your language preferences. Trust me, it works quite well, more than expected.
 
 
 # Contact
-If you need any help, you know where to find me.  
-http://twitter.com/3araht  
+If you need any help, you know where to find me.
+http://twitter.com/3araht
 https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/
 
 
 ## Miscellaneous
 #### Origin of the name: giabalanai
-When you pronounce giabalanai, it sounds like "蛇腹無い" in Japanese = *bellows-less*, which represents the keyboard.  
+When you pronounce giabalanai, it sounds like "蛇腹無い" in Japanese = *bellows-less*, which represents the keyboard.
 Much easier for others: giabaLEnai = not only bellows-less but missing LEft-hand side, giabaRInai = not only bellows-less but missing RIght-hand side, and two sets of giabaRInai is giabaRInaix2.
 
 Well, the ancestor of this keyboard is located in Italy ;-) so the Italian spelling method is used.
