@@ -27,6 +27,9 @@ iPad や iPhone で giabalanai を使う場合には電源が必要ですので�
 
 [私の YouTube チャンネル](https://www.youtube.com/channel/UC0zYtYMoxb0P7S8DPAkl0zA/) も併せてご覧ください。
 
+ユニゾン機能の演奏例をGHEIMさんがUPされています。[こちら](https://twitter.com/GHEIM_2236/status/1382292767863296003?s=20&t=EltwkhD1qZg6FOf8UqGBdw)をご覧ください。
+
+
 # キーボードキット
 ## ラインナップ
 全部で7通りのバリエーションがございます。
