@@ -356,6 +356,7 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 | エンコーダーボタン長押し＋左手側キーボード 1行5列目のF  | クロマトーン配列(Chromatone, 左右のキーボード共に単音配列）| CHRTONE |
 | エンコーダーボタン長押し＋左手側キーボード 1行6列目のC  | アコーディオン配列 (C-System 右手側180°反転版。左手はCounter Bass反転せず）| CFLIP2B |
 | エンコーダーボタン長押し＋左手側キーボード 1行7列目のG  | アコーディオン配列 (C-System Free Bass）| CSYSFBS |
+| エンコーダーボタン長押し＋左手側キーボード 1行8列目のD  | アコーディオン配列（B-System, Counter Bass版 = dim コード無し）| CNTBASB|
 | エンコーダーボタン長押し＋左手側キーボード 1行12列目のF# | LED ON/OFF 切り替え（LED を実装している場合）| RGB_TOG |
 | エンコーダーボタン長押し＋左手側キーボード 2行1列目のD♭Major | QWERTY 配列（左手側キーボード）| DF_QWER |
 | エンコーダーボタン長押し＋左手側キーボード 2行2列目のA♭Major | Bass 音 単音 or 2和音 切り替え（初期設定： 2和音）| TGLBASS |
@@ -366,7 +367,8 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 |エンコーダーボタン長押し＋右手側キーボード 3行3列目のD | 基準の音階| MI_OCT_0 |
 |エンコーダーボタン長押し＋右手側キーボード 3行4列目のF | 1オクターブ高く| MI_OCT_1 |
 |エンコーダーボタン長押し＋右手側キーボード 3行5列目のG# | 2オクターブ高く| MI_OCT_2 |
-|エンコーダーボタン長押し＋右手側キーボード 3行12列目のG♭ | 初期設定に戻す| EEP_RST |
+|エンコーダーボタン長押し＋右手側キーボード 3行11列目のD | ファームウェアのバージョン表示| VERSION |
+|エンコーダーボタン長押し＋右手側キーボード 3行12列目のF | 初期設定に戻す| EEP_RST |
 |エンコーダーボタン長押し＋右手側キーボード 4行10列目のA#  | ベロシティを下げる | MI_VELD|
 |エンコーダーボタン長押し＋右手側キーボード 4行11列目のC#  | ベロシティを上げる | MI_VELU|
 |エンコーダーボタン長押し＋右手側キーボード 5行9列目のA    | 下に示すボタンでユニゾンを有効にしたときのオクターブ音のベロシティを（基準音のベロシティ - 30）にする（デフォルト）か、基準音のベロシティと同じにするか切り替え | TGLUVEL|
@@ -380,7 +382,7 @@ MIDI の Ch を分ける機能を追加しました。これにより、メロ�
 下の「エンコーダボタン長押ししたときの様子 Function(FN) Layer」をご覧ください。<br>
 
 音符のレイアウト一覧<br>
-<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/main/pictures/20220220_giabalanai_notes_layout_3araht.png"><br>
+<img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/main/pictures/20230314_giabalanai_notes_layout_3araht.png"><br>
 
 エンコーダボタン長押ししたときの様子 Function(FN) Layer<br>
 <img width="700" alt="Layer" src="https://github.com/3araht/giabalanai/blob/main/pictures/20220807_giabalanai_FN_layer.png"><br>
