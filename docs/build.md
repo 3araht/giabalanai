@@ -231,17 +231,22 @@ giabaRInaix2 の方は 全部入り版は対象外なので、8.1.2 のgiabaRIna
 #### 8.1.1 ####
 #### （giabalanai, giabaLEnai, giabaRInai）とりあえず全部入り版、という方 ####
 
-LEDが光ったり、[下記](https://github.com/3araht/giabalanai/blob/main/docs/build.md#layers)に示す、みなさまのご要望にお答えし増やしたレイヤーなどが盛り込まれた全部入り版のHEXファイル(giabalanai_3araht.hex)は[こちら](https://github.com/3araht/giabalanai/blob/main/giabalanai_3araht_hex.zip)からダウンロードできます（3araht はこれを使用しております）。<br>
+LEDが光ったり、[下記](https://github.com/3araht/giabalanai/blob/main/docs/build.md#layers)に示す、みなさまのご要望にお答えし増やしたレイヤーなどが盛り込まれた全部入り版のHEXファイル(giabalanai_3araht.hex)などいくつかファームウェアを用意しています。<br>
 
-初めての方はHEXファイルの書き込みに以下のツールを使うことをお勧めします。<br>
+Remap を使うととても簡単に Promicro にファームウェアを書き込むことが可能です。
 
-普通の Pro Micro をお使いの場合は Pro Micro Web Updater<br>
-https://sekigon-gonnoc.github.io/promicro-web-updater/index.html
+Remap Catalog から、 giabalanai キーボードを探します。<br>
+<img width="700" alt="RemapKeyboardCatalog" src="https://github.com/3araht/giabalanai/blob/main/pictures/RemapKeyboardCatalog.png"><br>
 
-Elite-C をお使いの場合は QMK Toolbox<br>
-https://github.com/qmk/qmk_toolbox
+<img width="700" alt="Remap_giabalanai" src="https://github.com/3araht/giabalanai/blob/main/pictures/Remap_giabalanai.png"><br>
 
-これらの使い方は サリチル酸さんの[記事](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)がとても参考になります(サリチル酸さん、どうもありがとうございます)。
+書き込むファームウェアを選択します。<br>
+<img width="700" alt="RemapFirmwareSelect" src="https://github.com/3araht/giabalanai/blob/main/pictures/RemapFirmwareSelect.png"><br>
+
+Elite-C をお使いの場合は bootloader として dfu を、それ以外の場合は caterina を選択してファームウェアを書き込みます。書き込み方の詳細は画面に示されている手順に従ってください。<br>
+<img width="700" alt="RemapFlash" src="https://github.com/3araht/giabalanai/blob/main/pictures/RemapFlash.png"><br>
+
+他の書き込み方も色々あります。サリチル酸さんの[記事](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)がとても参考になります(サリチル酸さん、どうもありがとうございます)。
 
 #### 8.1.2 ####
 
@@ -279,17 +284,16 @@ MIDIソフトによっては、同じ音を重ねて鳴らしたときにその�
 ~~対策方法がわかりましたので、それを適用します（こちらも pull request 中。正式に採用されるまでの暫定対策）。~~<br>
 2020/10/5 pull request が メインブランチにマージされました。最新のソフトを clone いただければOKです。<br>
 2021/04/13 残念ながら、2021/3/25 の process_midi.c の更新により、再びこの問題が復活しています。
-影響範囲は今では幸いにも クロマトーン配列 以外は大丈夫そうですが、クロマトーン配列を使用される方は、コンパイル前に以下のコマンドでエンバグ前のコードを引っ張り出してコンパイルしてください(qmk_firmware のバージョンが 0.18.16以前の場合)。
+2023/09/23 以下の Pull Request から下記ファイルを取得し、`process_midi.c` を差し替えてください。
+
+https://github.com/qmk/qmk_firmware/pull/22114
+https://github.com/qmk/qmk_firmware/blob/e8906ed2ea0b9f20291b2759d4d65fc6c334ab39/quantum/process_keycode/process_midi.c
+
 ```
-git checkout c66df16 quantum/process_keycode/process_midi.c
+quantum/process_keycode/process_midi.c
 ```
 
-0.18.17 以降の qmk_firmware をお使いの場合は、上記のファイルだと MI_SUS の宣言が変更になったためエラーになるので、
-以下のファイルをダウンロードして、ローカルの quantum/process_keycode/process_midi.c　を上書きしてください。
-https://github.com/3araht/qmk_firmware/blob/d30b4e29016f651ab31ac018bcea424250dc522d/quantum/process_keycode/process_midi.c
-
-
-5. カスタマイズ！<br>
+3. カスタマイズ！<br>
 ~~かなり Staggered なので、このキーボードでタイピングすることはあまり考えていないと思いますが、必要に応じてカスタマイズしてお使いください。~~<br>
 意外と打てました。左手側のキーボードを5x12の60％キーボードとして使えそうです。<br>
 （また、register switch 機能を付与するなどのカスタマイズは面白いかもしれませんね。）
